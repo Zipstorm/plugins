@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/adapter.schema.json",
+  "id": "cursor",
+  "displayName": "Cursor",
+  "artifactName": "recruiting-cursor",
+  "status": "scaffold",
+  "components": {
+    "skills": { "status": "planned" },
+    "hooks": { "status": "planned" },
+    "agents": { "status": "planned" },
+    "subagents": { "status": "planned" },
+    "commands": { "status": "planned" },
+    "instructions": { "status": "planned" },
+    "rules": { "status": "planned" },
+    "mcpOverrides": { "status": "planned" },
+    "permissions": { "status": "planned" },
+    "packagingMetadata": { "status": "planned" }
+  }
+}

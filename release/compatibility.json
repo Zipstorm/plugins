@@ -1,0 +1,102 @@
+{
+  "$schema": "../schemas/compatibility-matrix.schema.json",
+  "schemaVersion": 1,
+  "suiteVersion": "0.1.0",
+  "clients": [
+    {
+      "id": "portable",
+      "artifact": "recruiting",
+      "packageStatus": "scaffold-no-skills",
+      "installation": "not-verified",
+      "components": {
+        "portableManifest": "implemented",
+        "nativeManifest": "not-applicable",
+        "skills": "planned",
+        "hooks": "not-portable",
+        "agents": "not-portable",
+        "subagents": "not-portable",
+        "commands": "not-portable",
+        "instructions": "not-portable",
+        "rules": "not-portable",
+        "mcpOverrides": "not-portable",
+        "permissions": "not-portable"
+      }
+    },
+    {
+      "id": "codex",
+      "artifact": "recruiting-codex",
+      "packageStatus": "scaffold-no-skills",
+      "installation": "repo-marketplace-scaffold",
+      "components": {
+        "portableManifest": "implemented",
+        "nativeManifest": "implemented",
+        "skills": "planned",
+        "hooks": "planned",
+        "agents": "planned",
+        "subagents": "planned",
+        "commands": "planned",
+        "instructions": "planned",
+        "rules": "planned",
+        "mcpOverrides": "planned",
+        "permissions": "planned"
+      }
+    },
+    {
+      "id": "claude-code",
+      "artifact": "recruiting-claude-code",
+      "packageStatus": "scaffold-no-skills",
+      "installation": "not-verified",
+      "components": {
+        "portableManifest": "implemented",
+        "nativeManifest": "planned",
+        "skills": "planned",
+        "hooks": "planned",
+        "agents": "planned",
+        "subagents": "planned",
+        "commands": "planned",
+        "instructions": "planned",
+        "rules": "planned",
+        "mcpOverrides": "planned",
+        "permissions": "planned"
+      }
+    },
+    {
+      "id": "cursor",
+      "artifact": "recruiting-cursor",
+      "packageStatus": "scaffold-no-skills",
+      "installation": "not-verified",
+      "components": {
+        "portableManifest": "implemented",
+        "nativeManifest": "planned",
+        "skills": "planned",
+        "hooks": "planned",
+        "agents": "planned",
+        "subagents": "planned",
+        "commands": "planned",
+        "instructions": "planned",
+        "rules": "planned",
+        "mcpOverrides": "planned",
+        "permissions": "planned"
+      }
+    },
+    {
+      "id": "antigravity",
+      "artifact": "recruiting-antigravity",
+      "packageStatus": "scaffold-no-skills",
+      "installation": "not-verified",
+      "components": {
+        "portableManifest": "implemented",
+        "nativeManifest": "planned",
+        "skills": "planned",
+        "hooks": "planned",
+        "agents": "planned",
+        "subagents": "planned",
+        "commands": "planned",
+        "instructions": "planned",
+        "rules": "planned",
+        "mcpOverrides": "planned",
+        "permissions": "planned"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/adapter.schema.json",
+  "id": "codex",
+  "displayName": "Codex",
+  "artifactName": "recruiting-codex",
+  "status": "scaffold",
+  "components": {
+    "skills": { "status": "planned" },
+    "hooks": { "status": "planned" },
+    "agents": { "status": "planned" },
+    "subagents": { "status": "planned" },
+    "commands": { "status": "planned" },
+    "instructions": { "status": "planned" },
+    "rules": { "status": "planned" },
+    "mcpOverrides": { "status": "planned" },
+    "permissions": { "status": "planned" },
+    "packagingMetadata": {
+      "status": "implemented",
+      "sourcePath": "../../plugins/recruiting-codex/.codex-plugin/plugin.json",
+      "packagePath": ".codex-plugin/plugin.json"
+    }
+  }
+}

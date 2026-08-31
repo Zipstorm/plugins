@@ -1,0 +1,18 @@
+{
+  "$schema": "../schemas/channels.schema.json",
+  "schemaVersion": 1,
+  "channels": {
+    "stable": {
+      "versionExample": "1.2.3",
+      "tagExample": "suite/v1.2.3"
+    },
+    "beta": {
+      "versionExample": "1.2.3-beta.1",
+      "tagExample": "suite/v1.2.3-beta.1"
+    },
+    "canary": {
+      "versionExample": "1.2.3-canary.20260831.abcdef0",
+      "tagExample": "suite/v1.2.3-canary.20260831.abcdef0"
+    }
+  }
+}

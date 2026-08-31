@@ -1,0 +1,17 @@
+{
+  "name": "recruiting-codex",
+  "version": "0.1.0",
+  "description": "Manifest-only Codex foundation for the recruiting plugin suite.",
+  "author": {
+    "name": "Recruiting Plugins Team"
+  },
+  "interface": {
+    "displayName": "Recruiting",
+    "shortDescription": "Recruiting plugin foundation; no skills yet.",
+    "longDescription": "A manifest-only foundation for future recruiting workflows. This scaffold currently provides no skills, tools, or connections.",
+    "developerName": "Recruiting Plugins Team",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": []
+  }
+}

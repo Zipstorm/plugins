@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "recruiting",
+  "version": "0.1.0",
+  "description": "Manifest-only foundation for the recruiting agent plugin suite; no skills or MCP servers are included.",
+  "author": {
+    "name": "Recruiting Plugins Team"
+  },
+  "keywords": [
+    "recruiting",
+    "agent-plugin"
+  ]
+}

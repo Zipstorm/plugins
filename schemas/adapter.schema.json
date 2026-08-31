@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Harness adapter descriptor",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "id", "displayName", "artifactName", "status", "components"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "displayName": { "type": "string", "minLength": 1 },
+    "artifactName": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "status": { "enum": ["scaffold", "implemented"] },
+    "components": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["skills", "hooks", "agents", "subagents", "commands", "instructions", "rules", "mcpOverrides", "permissions", "packagingMetadata"],
+      "properties": {
+        "skills": { "$ref": "#/$defs/component" },
+        "hooks": { "$ref": "#/$defs/component" },
+        "agents": { "$ref": "#/$defs/component" },
+        "subagents": { "$ref": "#/$defs/component" },
+        "commands": { "$ref": "#/$defs/component" },
+        "instructions": { "$ref": "#/$defs/component" },
+        "rules": { "$ref": "#/$defs/component" },
+        "mcpOverrides": { "$ref": "#/$defs/component" },
+        "permissions": { "$ref": "#/$defs/component" },
+        "packagingMetadata": { "$ref": "#/$defs/component" }
+      }
+    }
+  },
+  "$defs": {
+    "component": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": { "enum": ["planned", "implemented"] },
+        "sourcePath": { "type": "string", "minLength": 1 },
+        "packagePath": { "type": "string", "minLength": 1 }
+      },
+      "if": { "properties": { "status": { "const": "implemented" } } },
+      "then": { "required": ["sourcePath", "packagePath"] },
+      "else": {
+        "allOf": [
+          { "not": { "required": ["sourcePath"] } },
+          { "not": { "required": ["packagePath"] } }
+        ]
+      }
+    }
+  }
+}

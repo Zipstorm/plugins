@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "recruiting-codex",
+  "version": "0.1.0",
+  "description": "Manifest-only Codex foundation for the recruiting plugin suite; no skills or MCP servers are included.",
+  "author": {
+    "name": "Recruiting Plugins Team"
+  },
+  "keywords": [
+    "recruiting",
+    "codex",
+    "agent-plugin"
+  ]
+}

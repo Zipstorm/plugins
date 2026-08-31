@@ -1,0 +1,42 @@
+{
+  "$schema": "../schemas/suite.schema.json",
+  "schemaVersion": 1,
+  "suiteVersion": "0.1.0",
+  "agentPluginsSpecVersion": "1.0.0",
+  "description": "Manifest-only foundation for the recruiting agent plugin suite.",
+  "author": {
+    "name": "Recruiting Plugins Team"
+  },
+  "artifacts": [
+    {
+      "profile": "portable",
+      "name": "recruiting",
+      "adapter": null,
+      "packageMode": "portable"
+    },
+    {
+      "profile": "codex",
+      "name": "recruiting-codex",
+      "adapter": "codex",
+      "packageMode": "codex-native"
+    },
+    {
+      "profile": "claude-code",
+      "name": "recruiting-claude-code",
+      "adapter": "claude-code",
+      "packageMode": "portable-scaffold"
+    },
+    {
+      "profile": "cursor",
+      "name": "recruiting-cursor",
+      "adapter": "cursor",
+      "packageMode": "portable-scaffold"
+    },
+    {
+      "profile": "antigravity",
+      "name": "recruiting-antigravity",
+      "adapter": "antigravity",
+      "packageMode": "portable-scaffold"
+    }
+  ]
+}

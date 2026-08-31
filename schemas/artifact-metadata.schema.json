@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Generated artifact provenance",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "suiteVersion", "artifactName", "harnessProfile", "packageMode", "status", "sourceSha", "workflowContracts", "agentPluginsSpecVersion", "compatibilityMatrixVersion"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "suiteVersion": { "type": "string" },
+    "artifactName": { "type": "string" },
+    "harnessProfile": { "type": "string" },
+    "packageMode": { "type": "string" },
+    "status": { "const": "scaffold-no-skills" },
+    "sourceSha": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+    "workflowContracts": { "type": "object", "maxProperties": 0 },
+    "agentPluginsSpecVersion": { "const": "1.0.0" },
+    "compatibilityMatrixVersion": { "const": 1 }
+  }
+}

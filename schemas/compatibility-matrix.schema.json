@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Plugin suite compatibility matrix",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "schemaVersion", "suiteVersion", "clients"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": 1 },
+    "suiteVersion": { "type": "string" },
+    "clients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "artifact", "packageStatus", "installation", "components"],
+        "properties": {
+          "id": { "type": "string" },
+          "artifact": { "type": "string" },
+          "packageStatus": { "const": "scaffold-no-skills" },
+          "installation": { "enum": ["not-verified", "repo-marketplace-scaffold"] },
+          "components": {
+            "type": "object",
+            "additionalProperties": { "$ref": "#/$defs/status" }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "status": { "enum": ["implemented", "planned", "not-portable", "not-applicable"] }
+  }
+}

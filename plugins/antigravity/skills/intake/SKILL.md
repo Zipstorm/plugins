@@ -1,0 +1,74 @@
+---
+name: intake
+description: Define or revise a role's brief and criteria from a JD, recruiter requirements or meeting notes; prepare hiring-manager conversations and role handovers.
+---
+
+# Make the role clear
+
+Give the recruiter the requested brief, document or role plan. A JD accompanied
+by “find people” goes straight to **sourcing**. When a request names a role but
+it is not fully clear whether the recruiter wants people now or a plan first
+(“help me fill…”, “I'm hiring a…”), ask once before any search or report: see
+candidates now (one search, about a minute) or plan the role first (what each
+requirement costs and where the talent is, a few minutes, then a first search).
+A request sent from a SeekOut pane button already says which; follow it. For a document, draft from
+available facts and mark gaps; do not turn writing into a questionnaire. For a
+role plan, clarify the work, who could do it and which decisions remain open.
+
+Use the recruiter's explicit target first, otherwise this conversation's
+current work item, then visible context consistent with that work. Ask only
+if the target remains materially ambiguous; keep unrelated chats and roles
+separate. A follow-up about the current plan revises its trade-offs report and
+talent map, including a what-if; it does not create a separate candidate search.
+
+## Establish the brief
+
+Read supplied material and reuse earlier answers before asking. Preserve
+explicit requirements, priorities, alternatives and named people; separate
+interpretations from agreed facts. Ask only questions whose answers change the
+brief. A bare title may need function, level and location; an explicit broad
+scope is valid. Clarify whether named people are examples, exclusions or already
+in play. Flag contradictory requirements and unrequested proxies without
+silently rewriting the bar. Use the shared [criteria](../../references/criteria.md).
+
+Save a supplied job description in SeekOut, which keeps it in the role's
+workspace. Saving the JD alone does not also request a rubric. Save required,
+preferred and excluded criteria as the role's rubric only for requested role
+planning or screening, or an explicit rubric request. Use stated requirements
+without reconfirming them; confirm material interpretations before saving them.
+Shortlist screening uses the saved rubric.
+
+## Plan and measure
+
+Accept a JD, title and place, or a few lines. Clarify what matters with
+your own question tool: at most three questions total, including the opening
+for this starter. Reuse answers; ask only about consequential gaps, never
+module choices. Keep unknowns explicit; pause only dependent measurements.
+A declined or dismissed question pauses the starter until the recruiter supplies
+context or asks to continue; never substitute an unrelated role.
+
+Save stated or confirmed criteria, then follow the
+[concise report recipe](../../references/report-building.md#choose-and-write):
+independent requirement trade-offs and relevant agreed markets. Do not invent
+requirements or offices to fill the template. Complete the report, not just the
+brief. Keeping the baseline and validating its pool is a valid recommendation;
+large counts alone do not justify tightening requirements.
+
+Preserve the agreed baseline; what-ifs stay hypothetical. An explicit requirement
+change authorizes revision. Otherwise ask only when the next action needs an
+unaccepted change, leaving it pending if the question budget is spent. Recommend
+baseline evidence review and at most one conditional alternative: inspect a
+variant or draft a hiring-manager push-back. Execute only already-requested steps.
+
+Read only the relevant recipe:
+
+- [Intake or kickoff preparation](references/prep.md)
+- [Meeting notes, messages and changing requirements](references/notes.md)
+- [Job description or advertisement](references/jd.md)
+- [Hiring-manager expectations](references/hiring-manager.md)
+- [Role handover](references/handover.md)
+
+Use **reporting** when a decision needs measured market evidence. Counts never
+establish pay, recruiter effort or candidate availability.
+
+For host forms, presentation and connected systems, read [client guidance](client-adapter.md).

@@ -1,6 +1,6 @@
 # SeekOut for Antigravity
 
-Use the **Find candidates** starter to search for people by role with your SeekOut account. The package includes the `sourcing` skill and connects to `https://mcp.seekout.io/v2/gemini`. Your SeekOut organization must have MCP access and an eligible license.
+Use the **Find candidates** starter to search for people by role with your SeekOut account. The package includes the MCP V2 skills for setup, intake, sourcing, interviewing, outreach, pipeline management and reporting and connects to `https://mcp.seekout.io/v2/gemini`. Your SeekOut organization must have MCP access and an eligible license.
 
 ## Install a review candidate
 
@@ -12,9 +12,9 @@ agy plugin install .
 agy plugin list --json
 ```
 
-Check that the enabled SeekOut entry shows version **0.2.0**, the expected installation path, and the `sourcing` skill. Open **Customizations → Installed → SeekOut → Accounts**, sign in to the plugin's SeekOut connection, and complete the browser flow. If the browser remembers another SeekOut account, use a separate browser profile for review. In the plugin's **MCP** tab, confirm that `search_candidates` is available.
+Check that the enabled SeekOut entry shows version **0.2.0**, the expected installation path, and all seven skills. Open **Customizations → Installed → SeekOut → Accounts**, sign in to the plugin's SeekOut connection, and complete the browser flow. If the browser remembers another SeekOut account, use a separate browser profile for review. In the plugin's **MCP** tab, confirm that `search_candidates` is available.
 
-## Try the two entry points
+## Try the two sourcing entry points
 
 1. In a fresh conversation, type **CFO**. Expect a question about your intent. The first turn should show zero candidate searches.
 2. Open the installed SeekOut plugin, click **Find candidates**, and send the prefilled message. When asked for the role, reply **CFO**. Expect current CFO results on that turn. Expand the execution details and confirm that the installed plugin's `search_candidates` handled the call. A call to `search_people` identifies the older connection.

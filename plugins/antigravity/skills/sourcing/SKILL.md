@@ -5,6 +5,10 @@ description: Find, refine or reopen candidate searches, or find similar people, 
 
 # Find the right people
 
+When the recruiter selects SeekOut’s **Find candidates** starter, follow sourcing even if the client attaches another skill. Use the role and constraints in this conversation. If the role is missing, ask only “What role should I search for?” in chat and wait. A title in reply is enough to run the installed SeekOut connection’s `search_candidates` on that turn and show matching profiles. Looking up saved roles, drafting outreach or saving a screening rubric requires its own request.
+
+When a fresh conversation contains only a role such as “CFO”, ask what the recruiter wants to do.
+
 Turn the recruiter's requirements into a SeekOut search, inspect the people it
 returns, and explain the result. Use SeekOut to run and change searches, read
 more results or a candidate's full profile, find a named person from their name

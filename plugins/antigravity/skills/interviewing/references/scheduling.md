@@ -34,22 +34,9 @@ the [interviewer brief](calendar.md).
 
 ## The times are the question
 
-Read everyone's free/busy over the window, one working day at a time (9 to 5 in
-the recruiter's zone): a single read over two weeks returns only the nearest
-hours, nights included. Then offer three free times with your own question tool,
-with "other times" as an answer. Their pick is the approval: never ask again
-"shall I book?". When they ask for something else (another window, another
-length, someone added), read again for what they asked and offer again. A time
-they asked for that someone cannot make is still offered, marked, with the
-nearest free times beside it. Describe a conflict without exposing the other
-meeting; unreadable free/busy is unknown, not free.
+Read available working hours for the requested participants and window. Give up to three mutually free times with time zones. Treat unreadable calendars as unknown and describe conflicts without revealing other meetings. For a request to find a time, return the options. If the recruiter picks one, clarify whether they want invitations sent unless they already explicitly requested booking for these attendees.
 
-Recheck the picked slot immediately before booking, once; if it was taken, read
-the window again and offer new times. Book on the recruiter's own calendar with
-the agreed attendees, then confirm the returned time, calendar, attendees and
-joining details. For an uncertain write, read the event or that slot before
-anything else; never create a duplicate. Follow [calendar work](../../../references/connectors/calendar.md)
-and [external actions](../../../references/external-actions.md).
+When booking is requested, confirm the intended attendees and selected slot, recheck free/busy, and follow the connected calendar’s own review flow. Report the event and joining details only after the calendar confirms creation. If the outcome is uncertain, check the event before trying again. Follow [calendar work](../../../references/connectors/calendar.md) and [external actions](../../../references/external-actions.md).
 
 ## People outside the company
 

@@ -51,29 +51,8 @@ hands it over when the recruiter continues, so end the turn as the handoff says.
 
 ## Send an email
 
-Use the chosen sender and intended recipients. Match addresses to people and
-check available prior contact, bounces and opt-outs. Reuse known lookup results;
-a “none found” result is not an invitation to spend again. Send as the
-batch's behavior says (the recruiter chose it when they started outreach). For
-*Preview drafts* (draft_only), show each exact message and send only what they
-approve; where their email can only draft, or none is connected, hand over the
-drafts and say nothing was sent. For *Send automatically* (auto_send), send each
-message the batch covers through their email's own send, without approving each
-draft. A message is sent only when their email returned it sent. Their email's own confirmation
-always runs; reuse authorization already given for the exact content and
-recipients. Draft requests stay drafts.
+For a draft request, return the finished draft. For a send request, match the chosen sender, recipients and message to what the recruiter requested. Check prior contact, bounces and opt-outs, and reuse any existing address lookup. A batch set to preview stays in draft until the recruiter approves the identified messages. A request covering a specific batch applies only to its identified recipients.
 
-After a confirmed send to one of a workspace's candidates, mark them Contacted in
-SeekOut; a failed or unknown send is not marked. Once a batch's sends are
-confirmed, add one [work log](../../../references/work-log.md) entry for the
-batch.
+Use the connected mail app’s supported handoff and let it present its own permissions and confirmations. If sending is unavailable, provide the drafts. Record a candidate as Contacted only when the provider confirms that message was sent or the recruiter says they sent it. Record one outcome per person and one [work log](../../../references/work-log.md) entry for a confirmed batch. Check an uncertain send before trying again. Follow [mail handoff](../../../references/connectors/mail.md) for its result.
 
-For batches, keep one outcome per recipient. Do not expand the audience or add
-a sequence because a batch was requested. Recover an uncertain send's status
-before retrying it; use [mail handoff](../../../references/connectors/mail.md)
-for confirmed, failed and unknown results.
-
-A follow-up is its own requested batch: read replies first, then write to the
-people still Contacted with no reply. Recurring sends on a timer are not
-offered here; a recurring reminder to review replies and drafts is, where the
-client can schedule one ([external actions](../../../references/external-actions.md)).
+For requested follow-ups, check for replies first. A reminder to review drafts can be offered when the client supports it. See [external actions](../../../references/external-actions.md).

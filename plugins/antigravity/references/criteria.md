@@ -36,7 +36,7 @@ candidates](evaluating.md#who-passes)) and an unknown as a question for the scre
 
 ## Who writes them
 
-On a request to draft a rubric, use the job description and the recruiter’s stated requirements. For a role with an overview, use its requirements. Show the draft in chat. Save or revise a rubric in the role’s workspace when the recruiter asks for that change. The Find candidates starter runs and displays the search.
+On a request to draft a rubric or search criteria, use the job description and the recruiter’s stated requirements. For a role with an overview, use its requirements. Show the draft in chat. Save or revise a rubric in the role’s workspace when the recruiter asks for that change.
 
 Preserve required, preferred and excluded criteria and the recruiter’s alternatives. Keep responsibilities and company descriptions separate from qualifications. Put unconfirmed requirements or ambiguous priorities in the open questions. Where a rubric already exists, refine the same list. Ranking against it does not establish a candidate’s fit.
 

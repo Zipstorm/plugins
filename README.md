@@ -4,6 +4,6 @@ Connect a recruiting assistant to SeekOut to find candidates, plan roles and wor
 
 | Client | Package |
 | --- | --- |
-| Google Antigravity | [Install SeekOut and test candidate search](plugins/antigravity/README.md) |
+| Google Antigravity | [Install SeekOut and try the three starters](plugins/antigravity/README.md) |
 
 The [distribution guide](docs/distribution.md) describes how to install a particular revision and export an Agent Plugins 1.0 package. [SeekOut documentation](https://docs.seekout.com) · [Support](https://support.seekout.com)

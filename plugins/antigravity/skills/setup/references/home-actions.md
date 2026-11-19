@@ -1,13 +1,13 @@
 # SeekOut starters
 
-## Find candidates
+## Find people for an open role
 
-Use the recruiting criteria already supplied. If the role is missing, ask “What role should I search for?” in chat and wait. A title in reply is sufficient. Run the installed SeekOut connection’s `search_candidates` and show results from that response. For a public search without a stated location, explicitly send `index: "all"`. Offer to refine the search. Save a separate role brief, rubric or campaign only when requested.
+Use the recruiting criteria already supplied. If the role is missing, ask “What role are you hiring for?” in chat and wait. A title in reply is sufficient. Run the installed SeekOut connection’s `search_candidates` and explain each match using the returned profile. For a public search without a stated location, explicitly send `index: "all"`.
 
-## Figuring out who to target
+## Compare two locations
 
-Use intake to turn the supplied job description into a role brief. When the recruiter asks for a draft, show the draft in chat. Save it to a workspace when the recruiter requests that destination.
+Use reporting to measure the same role and requirements in the two requested places. Ask for any missing role or place, label each measured count and explain any gaps.
 
-## Understand what’s possible in the market
+## Draft search criteria
 
-Use reporting to measure the recruiting question with the supplied role, region and criteria. Label the scope of each measurement, show the figures the tool returned, and state any gaps.
+Use intake to turn the supplied job description into required and preferred criteria and questions for the hiring manager. Show the draft in chat for the recruiter to review. Save it when the recruiter asks for that action.

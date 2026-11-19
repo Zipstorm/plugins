@@ -10,4 +10,4 @@ From the repository root, export a separate portable directory:
 python3 scripts/export-antigravity-portable.py plugins/antigravity /tmp/seekout-portable
 ```
 
-Choose a new output directory. The export carries the same skill and reference files and the same remote SeekOut connection as the native package. It writes the portable `plugin.json` and `mcp.json` for a client that supports the [Agent Plugins format](https://agent-plugins.org/). Antigravity's native installation also provides the **Find candidates** starter and SeekOut logo.
+Choose a new output directory. The export carries the same skill and reference files and the same remote SeekOut connection as the native package. It writes the portable `plugin.json` and `mcp.json` for a client that supports the [Agent Plugins format](https://agent-plugins.org/). Antigravity's native installation also provides three suggested prompts and the SeekOut logo.

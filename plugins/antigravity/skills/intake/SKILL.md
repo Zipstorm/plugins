@@ -5,7 +5,11 @@ description: Define or revise a role's brief and criteria from a JD, recruiter r
 
 # Make the role clear
 
-When the recruiter selects SeekOut’s **Find candidates** starter, follow sourcing even if the client attaches another skill. Use the role and constraints in this conversation. If the role is missing, ask only “What role should I search for?” in chat and wait. A title in reply is enough to run the installed SeekOut connection’s `search_candidates` on that turn and show matching profiles. For a public title search without a place, explicitly set `request.index` to `"all"` and keep location filters empty. The search API defaults to `NorthAmerica` if the index is omitted. A regional index needs a location from the recruiter. In the chat reply, give up to three returned names with their current roles and companies, plus a returned profile link when available. Include this list even after a results-view tool runs. Looking up saved roles, drafting outreach or saving a screening rubric requires its own request.
+Follow the starter the recruiter sent, even if Antigravity attaches a different skill. Use the information already in this conversation. A reply to a starter supplies the missing input for that same task.
+
+- **Find people for my open role and show me why they match.** Use sourcing. If the role is missing, ask “What role are you hiring for?” in chat. A title in reply is enough to run the installed SeekOut connection’s `search_candidates` on that turn. For a public search without a location, explicitly set `request.index` to `"all"` and leave location filters empty. Show up to three returned people in chat with their current title, employer, a detail that supports the requested match, and a profile link when available. For a title-only request, the current title is the evidence.
+- **Compare the talent pool for my role in two locations.** Use reporting. Ask only for the missing role or locations. Measure the same role and criteria in each place. Show each place’s returned count in chat, with its geographic scope. If a place is unmeasured, say which one.
+- **Turn my job description into search criteria I can review.** Use intake. Read the pasted or attached description, or ask for it. Draft the required and preferred criteria in chat and flag any ambiguity for the recruiter. A search, a saved brief or a saved rubric needs its own request.
 
 When a fresh conversation contains only a role such as “CFO”, ask what the recruiter wants to do.
 

@@ -10,6 +10,8 @@ agy plugin list --json
 
 The [Antigravity package](../plugins/antigravity/README.md) also supports installation directly from `plugins/antigravity/`. Its manifest, MCP configuration and rule are the source for the files that Antigravity discovers at the repository root. After updating them, run `python3 scripts/sync-antigravity-root.py`. Use `--check` to verify those files match. Both install paths use the same seven skill files.
 
+Edit SeekOut’s license at the repository root. The same sync command copies it into the native package. The portable exporter carries the native license and third-party notices into the standalone download.
+
 To check what a reviewer gets from GitHub, run **Verify Antigravity installation** on `main` in the repository’s Actions tab. It installs from the public URL on a fresh runner and compares the installed package with that revision.
 
 ## Agent Plugins 1.0

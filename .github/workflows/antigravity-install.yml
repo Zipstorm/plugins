@@ -5,9 +5,11 @@ on:
     paths:
       - ".antigravity-plugin/**"
       - ".github/workflows/antigravity-install.yml"
+      - "LICENSE.md"
       - "mcp_config.json"
       - "plugins/antigravity/**"
       - "rules/**"
+      - "scripts/export-antigravity-portable.py"
       - "scripts/sync-antigravity-root.py"
   workflow_dispatch:
 
@@ -26,6 +28,13 @@ jobs:
           persist-credentials: false
       - name: Check the repository entry point
         run: python3 scripts/sync-antigravity-root.py --check
+      - name: Check the portable license and notices
+        run: |
+          portable_dir="$RUNNER_TEMP/seekout-portable"
+          python3 scripts/export-antigravity-portable.py plugins/antigravity "$portable_dir"
+          cmp LICENSE.md "$portable_dir/LICENSE.md"
+          cmp plugins/antigravity/THIRD_PARTY_NOTICES.md "$portable_dir/THIRD_PARTY_NOTICES.md"
+          jq -e '.license == "Proprietary"' "$portable_dir/plugin.json"
       - name: Install Google's CLI
         run: |
           curl --proto '=https' -fsSL --retry 2 --max-time 60 https://antigravity.google/cli/install.sh -o "$RUNNER_TEMP/install-agy.sh"

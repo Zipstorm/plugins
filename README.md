@@ -13,3 +13,5 @@ agy plugin install https://github.com/Zipstorm/plugins
 ```
 
 The [distribution guide](docs/distribution.md) describes how to install a particular revision and export an Agent Plugins 1.0 package. [SeekOut documentation](https://docs.seekout.com) · [Support](https://support.seekout.com)
+
+The [SeekOut plugin license](LICENSE.md) covers use of the official plugin and distribution by authorized marketplaces. The [third-party notices](plugins/antigravity/THIRD_PARTY_NOTICES.md) identify material you can reuse under its own terms.

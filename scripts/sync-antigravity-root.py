@@ -16,6 +16,7 @@ def main():
     manifest["logo"] = (package / manifest["logo"]).as_posix()
     manifest["skills"] = ["./" + (package / "skills").as_posix()]
     files = {
+        root / package / "LICENSE.md": (root / "LICENSE.md").read_bytes(),
         root / ".antigravity-plugin/plugin.json": (json.dumps(manifest, indent=2) + "\n").encode(),
         root / "mcp_config.json": (root / package / "mcp_config.json").read_bytes(),
         root / "rules/AGENTS.md": (root / package / "rules/AGENTS.md").read_bytes(),

@@ -36,26 +36,9 @@ candidates](evaluating.md#who-passes)) and an unknown as a question for the scre
 
 ## Who writes them
 
-The first draft comes from the job description and the recruiter's words:
-right after the first search, without asking (Find candidates), or while
-planning a role, with confirmed answers. For a role with an overview, the
-overview's requirements are that draft. Refine the same list with search
-evidence, screening outcomes, measured trade-offs, interview debriefs and
-outreach replies. Never start a second list for the same role. A direct request
-proceeds to sourcing without a planning or acceptance detour. A later search uses
-the current rubric: required and excluded criteria keep their meaning. Preferred
-criteria never restrict who is searched, and ranking by them never proves fit.
+On a request to draft a rubric, use the job description and the recruiter’s stated requirements. For a role with an overview, use its requirements. Show the draft in chat. Save or revise a rubric in the role’s workspace when the recruiter asks for that change. The Find candidates starter runs and displays the search.
 
-Read a pasted JD as a whole before assigning importance. Explicit must-haves
-and exclusions stay required and excluded; preferred qualifications stay
-preferred. Responsibilities, examples of technology and the hiring company's
-description do not make every mentioned term a candidate requirement. Keep
-alternatives together: "Go or Rust" is one requirement, not two. The
-recruiter's stated requirements direct the work; keep inferred or ambiguous ones
-separate, as open questions in the brief, instead of silently promoting them to
-required. A draft written without asking holds only what was stated: an unclear
-priority is preferred at most, never required, and nothing about the role is
-invented.
+Preserve required, preferred and excluded criteria and the recruiter’s alternatives. Keep responsibilities and company descriptions separate from qualifications. Put unconfirmed requirements or ambiguous priorities in the open questions. Where a rubric already exists, refine the same list. Ranking against it does not establish a candidate’s fit.
 
 ## One criterion
 
@@ -75,10 +58,7 @@ recruiter's request.
 
 ## Showing them
 
-A draft written in the background is not shown unless the recruiter asks. When
-it is shown or a change is proposed, give a short list with its version and
-source, numbered by position (C1, C2…) for that version only. Append new
-criteria so existing positions stay stable.
+Show the proposed criteria as a short list, with required, preferred or excluded status, source and version when available. Explain what changed and why. Report that the workspace was updated only after a requested save succeeds. Use stable criterion identifiers for updates and human-readable labels in the conversation.
 
 ## Tighten or loosen: reading the results
 

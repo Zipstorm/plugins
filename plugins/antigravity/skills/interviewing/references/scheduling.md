@@ -1,12 +1,6 @@
 # Book a meeting
 
-For any meeting the recruiter asks to book, schedule or find a time for: an intake
-with a hiring manager, a screen, an interview, a panel, a debrief. Done means the
-meeting is on the calendar at a time the recruiter picked, with the people they
-named and an invite that says why you are meeting; or, for someone outside the
-company, they have the recruiter's booking link in an email the recruiter allowed;
-or the recruiter cancelled and nothing was booked or sent. The hand-off says what
-was booked, or what stopped it, in the recruiter's words.
+For a request to find time, return available slots for the named people and window. Creating a calendar event or sharing a booking link requires a request to book or send it. For a booking request, report what the calendar or mail app actually confirmed. The recruiter can also ask for an invitation draft.
 
 ## Who, how long, when
 
@@ -83,9 +77,4 @@ the calendar it is on.
 
 ## Hand-off
 
-Say what was booked (time, attendees, subject, event link) or what stopped it,
-and the candidate's status in the workspace.
-Offer the useful next step: draft the agenda or [interview questions](prepare.md),
-book another meeting, find other times, or check whether the outside person has
-booked. An email or chat message on its own, or an outreach sequence, is
-**outreach**.
+For an availability request, return the available times and time zones. For a booking request, report the confirmed event, attendees, time and link, or explain what prevented booking. For a requested draft, return the draft. Offer the next step appropriate to the request, such as [interview questions](prepare.md) or a different time window.

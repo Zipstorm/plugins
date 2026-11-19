@@ -20,35 +20,11 @@ and saved candidates do not by themselves require extra plugins.
 
 ## Check the selected source, then make one useful offer
 
-1. Reuse the actual provider named or selected. Inspect connected/deferred action
-   metadata first. Do not infer Gmail from Drive, Outlook from Teams, or a usable
-   ATS job reader from SeekOut's connection inventory. No private content reads
-   during setup, including after connection.
-2. If needed, search the host's directory for that provider. Verify identity,
-   installation eligibility and relevant advertised capability. Recommend only
-   a matching eligible returned ID through the host's real recommendation action;
-   mentioning a name or searching alone does not show a connection card. Never
-   substitute an unrelated ATS or invent a plugin. Setup's source choice permits
-   this recommendation without another permission question.
-3. Use the recommendation tool's current eligibility rules. Do not add a SeekOut
-   cooldown or suppress the selected source merely because suggestion history
-   exists or a suggestion count is positive. History does not establish a pending
-   card, a current decline or a host restriction. If the host permits this offer,
-   make it; directory discovery alone is not the recommendation. A suggestion is
-   not installation, sign-in or verified read access. An ATS host plugin is
-   separate from the existing SeekOut ATS connection.
-4. When a card is shown, keep the concrete illustrative example in the final
-   response accompanying it and end the turn. Wait for the connection decision;
-   do not compete with a starter question or poll. After Not now or a resolved
-   connection, advance to the starters using the same question mechanism.
-5. With no eligible card, defer the connection and advance. Say “You can connect
-   this source later” when appropriate, without exposing suggestion history.
-   Do not add a JD, provider, account, input-method or example-role question.
+1. Identify the provider the recruiter chose and the task it would help with. Inspect the client’s relevant connection metadata.
+2. Use only a provider the host offers for that task under its current recommendation, permission and confirmation rules. Present the benefit and let the recruiter choose in the host’s own flow.
+3. If the connection is unavailable or declined, keep working with the context the recruiter supplied. A connected account still needs the relevant permissions for each task.
 
-Refresh metadata after a reported connection, without claiming content was read.
-Keep the verified state and the decision in conversation for the later selected
-workflow. Outside onboarding, follow the owning task's scoped read and fallback;
-installation does not authorize arbitrary private-content access.
+During setup, keep the source example visible and wait for any pending connection decision. Continue to the starters when it is resolved or skipped. A source selection alone does not grant access to its contents.
 
 ## Connection advice outside onboarding
 

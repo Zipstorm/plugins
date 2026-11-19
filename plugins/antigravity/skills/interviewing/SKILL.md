@@ -1,11 +1,11 @@
 ---
 name: interviewing
-description: Evaluate named candidates and support interview preparation, scheduling, debriefs, reference checks and offer discussions. Also books any recruiting meeting on the calendar (intake, screen, interview, panel, debrief; a booking link for someone outside the company) and preps a day of meetings ("prep me for today") with a private prep appointment beside each.
+description: Evaluate named candidates, prepare interviews and meeting briefs, find available times, book requested meetings, debrief interviews, and support reference checks and offer discussions.
 ---
 
 # Have a useful candidate conversation
 
-When the recruiter selects SeekOut’s **Find candidates** starter, follow sourcing even if the client attaches another skill. Use the role and constraints in this conversation. If the role is missing, ask only “What role should I search for?” in chat and wait. A title in reply is enough to run the installed SeekOut connection’s `search_candidates` on that turn and show matching profiles. Looking up saved roles, drafting outreach or saving a screening rubric requires its own request.
+When the recruiter selects SeekOut’s **Find candidates** starter, follow sourcing even if the client attaches another skill. Use the role and constraints in this conversation. If the role is missing, ask only “What role should I search for?” in chat and wait. A title in reply is enough to run the installed SeekOut connection’s `search_candidates` on that turn and show matching profiles. In the chat reply, give up to three returned names with their current roles and companies, plus a returned profile link when available. Include this list even after a results-view tool runs. Looking up saved roles, drafting outreach or saving a screening rubric requires its own request.
 
 When a fresh conversation contains only a role such as “CFO”, ask what the recruiter wants to do.
 
@@ -37,8 +37,7 @@ Choose the work requested:
   booking link by email).
 - [Use the calendar](references/calendar.md): update an existing interview and
   attach a question kit or preparation link for the right audience.
-- [Prep a day of meetings](references/meeting-prep.md): one confirmation, then a
-  private prep appointment beside each meeting from the people's recent messages.
+- [Prep a day of meetings](references/meeting-prep.md): prepare a calendar-only brief. Open recent correspondence or create private appointments when the recruiter requests those actions.
 - [Write up and debrief](references/debrief.md): separate answers, observations
   and judgments; identify the next decision.
 - [Reference and background checks](references/checks.md) or

@@ -54,16 +54,4 @@ unknown writes; never retry an uncertain send through another provider.
 
 ## Finding a missing connector
 
-Check connected/deferred tools first. Suggest a missing connection only when it
-blocks requested work, using the named provider and the host's discovery process.
-During explicit setup, the chosen source also warrants a recommendation when
-it would supply context for the first task; follow setup's question budget and
-end at the starters when the connection is skipped, declined or unavailable.
-Setup inspects metadata only, including for ATS providers; content reads and
-role intake belong to the later selected task.
-Do not repeat a suggestion declined in the current connection decision; continue
-drafts or supplied-file work. Prior history alone does not establish that decline.
-Installation, sign-in and usable actions are separate. Explain the specific
-returned access problem rather than guessing which subscription or admin setting
-is required. Read-only recovery may narrow the query once or honor a returned
-retry time; it never authorizes retrying a write.
+Use the named provider and the host’s supported discovery flow. The host determines whether a connection can be offered and presents its own permissions and confirmation controls. During setup, inspect metadata for the chosen source and explain the recruiting task it would help with. Wait for a pending decision. When a connection is declined or unavailable, continue with supplied context or drafts. Recheck the relevant account and advertised actions after sign-in. Explain any returned access issue and keep uncertain external writes from being repeated.

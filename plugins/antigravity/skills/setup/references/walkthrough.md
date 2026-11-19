@@ -59,25 +59,9 @@ response after tool calls**, not only commentary or an earlier response version.
 
 ## 3. A separate, optional connection decision
 
-Read [connections by use case](plugin-recommendations.md). Check only the chosen
-provider's metadata and the relevant directory result. Never scan source content
-to prove setup worked. Do not infer an account from matching provider names.
+Follow [connections by use case](plugin-recommendations.md). Use the selected provider’s available metadata and the host’s own eligibility and permission flow. If the host offers a suitable connection, explain its benefit with the source example and let the recruiter decide. Keep a pending decision separate from the starter question.
 
-If an eligible connection is needed, invoke the host's real recommendation action
-with the returned plugin ID. The final response accompanying that card contains
-the example and benefit, followed by “Connect when you’re ready, or choose Not now.”
-**End the turn and wait.** Do not show the starter question while that decision
-is pending, poll for installation or install automatically.
-
-After Not now, proceed directly to step 4, without a JD fallback, alternative
-provider or another setup question. After a reported connection, refresh only
-its metadata, preserve what is and is not verified, and proceed. If already
-usable, unavailable, restricted, or the host explicitly disallows a recommendation,
-do not show another card. Prior suggestion history alone is not a reason to skip
-the connection offer for the source the recruiter selected. Keep the example visible and advance; where connection is deferred,
-say “You can connect this source later.” Do not narrate recommendation history or
-claim access was verified. An unresolved card waits until a decision or an
-explicit request to skip/continue; elapsed time is not a decision.
+Continue to the starters when the connection is resolved, the recruiter skips it or the host offers no action. Keep the source example visible. Describe verified connection state accurately. Content reads belong to a subsequent recruiting task.
 
 ## 4. End at the starters
 

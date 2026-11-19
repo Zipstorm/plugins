@@ -1,0 +1,25 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "seekout",
+  "displayName": "SeekOut",
+  "version": "0.3.6",
+  "description": "Find candidates, explore talent pools, and organize recruiting work with SeekOut. Connect your account to use its data and permissions in Antigravity.",
+  "author": {
+    "name": "SeekOut",
+    "url": "https://www.seekout.com"
+  },
+  "logo": "assets/seekout-icon.svg",
+  "homepage": "https://docs.seekout.com",
+  "keywords": [
+    "recruiting",
+    "candidates",
+    "talent",
+    "search"
+  ],
+  "suggestedPrompts": [
+    "Find people for my open role and show me why they match.",
+    "Compare the talent pool for my role in two locations.",
+    "Turn my job description into search criteria I can review."
+  ],
+  "repository": "https://github.com/Zipstorm/plugins"
+}

@@ -1,11 +1,15 @@
 # SeekOut agent plugins
 
-This repository is the distribution home for SeekOut recruiting plugins. Each client gets its own installable directory, version and reviewer guide.
+Connect a recruiting assistant to SeekOut to find candidates, plan roles and work with recruiting data using your organization's permissions.
 
-| Client | Planned package root |
+| Client | Package |
 | --- | --- |
-| Antigravity | `plugins/antigravity/` |
-| Claude Code | `plugins/claude-code/` |
-| Cursor | `plugins/cursor/` |
+| Google Antigravity | [Install SeekOut and try the three starters](plugins/antigravity/README.md) |
 
-A client tag such as `antigravity/vX.Y.Z` identifies a release. A package on a review branch is a candidate. For the proposed package layout, skill ownership, release checks and rollback procedure, see the [distribution design](docs/distribution.md).
+Install SeekOut in Antigravity from this repository:
+
+```sh
+agy plugin install https://github.com/Zipstorm/plugins
+```
+
+The [distribution guide](docs/distribution.md) describes how to install a particular revision and export an Agent Plugins 1.0 package. [SeekOut documentation](https://docs.seekout.com) · [Support](https://support.seekout.com)

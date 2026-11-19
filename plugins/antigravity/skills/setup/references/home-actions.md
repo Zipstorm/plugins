@@ -2,7 +2,7 @@
 
 ## Find candidates
 
-Use the recruiting criteria already supplied. If the role is missing, ask “What role should I search for?” in chat and wait. A title in reply is sufficient. Run the installed SeekOut connection’s `search_candidates` and show results from that response. Offer to refine the search. Save a separate role brief, rubric or campaign only when requested.
+Use the recruiting criteria already supplied. If the role is missing, ask “What role should I search for?” in chat and wait. A title in reply is sufficient. Run the installed SeekOut connection’s `search_candidates` and show results from that response. For a public search without a stated location, explicitly send `index: "all"`. Offer to refine the search. Save a separate role brief, rubric or campaign only when requested.
 
 ## Figuring out who to target
 

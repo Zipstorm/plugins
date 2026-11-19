@@ -1,17 +1,45 @@
 # Role criteria
 
-Each role has one rubric: up to 10 criteria, kept in SeekOut in the role's job
-description report, in its workspace. Every save is a new version of that
-report, and screening for the Shortlist judges by the newest one. The rubric is
+Each role has one rubric: up to 10 criteria, kept in SeekOut with the role's job
+description, in its workspace. Every save is a new version, and screening
+candidates judges by the newest one. The rubric is
 a working record, not a one-time form: it starts from the job description and
 changes as the recruiter learns what the market holds and what the hiring team
 wants. Use it for candidate assessments and interview scorecards.
+
+## A role with an overview
+
+A role's [overview](role-overview.md) holds its requirements, and they are what
+candidates are screened against: saving the overview keeps them as the role's
+rubric, so a role with an overview has no separately drafted rubric. Its must-haves
+are required, its nice-to-haves preferred and its things to avoid excluded;
+trade-offs and pay are not criteria. To change a criterion, change the
+requirement on the overview and save the overview again. The rules below still
+decide what each requirement means and how it changes.
+
+A criterion the recruiter means for every role is one of their
+[default criteria](work-log.md#default-criteria): a new role's overview starts
+with it, marked as their default.
+
+## The evaluation criteria
+
+When your SeekOut tools can save candidate evaluations, candidates are evaluated
+on up to six of the rubric's criteria (and a search, when SeekOut ranks it, is ranked
+on the same ones): at most three required, two preferred and one excluded, each with a
+stable id. Choose them when you save the rubric or the overview, naming the ones that
+best tell people apart and that a profile can show; a later save keeps the same ones
+unless you name others; [evaluating candidates](evaluating.md) says which a profile can
+show and how each is judged. Every evaluation judges exactly those criteria. Nobody is kept or dropped: `required` is a
+must-have, `preferred` a nice-to-have and `excluded` a trait the role avoids, and in
+the table below read a keep as someone who passes ([evaluating
+candidates](evaluating.md#who-passes)) and an unknown as a question for the screen call.
 
 ## Who writes them
 
 The first draft comes from the job description and the recruiter's words:
 right after the first search, without asking (Find candidates), or while
-planning a role, with confirmed answers. Refine the same list with search
+planning a role, with confirmed answers. For a role with an overview, the
+overview's requirements are that draft. Refine the same list with search
 evidence, screening outcomes, measured trade-offs, interview debriefs and
 outreach replies. Never start a second list for the same role. A direct request
 proceeds to sourcing without a planning or acceptance detour. A later search uses
@@ -34,7 +62,7 @@ invented.
 | Field | Content |
 | --- | --- |
 | name | At most 40 characters, in the recruiter's or JD's wording; keep their numbers |
-| importance | `required` (every keep meets it), `preferred` (ranks the keeps) or `excluded` (a deal-breaker, named as the trait that rules a person out); see [status words](status-words.md#importance) |
+| importance | `required` (no keep clearly misses it), `preferred` (ranks the keeps) or `excluded` (a deal-breaker, named as the trait that rules a person out); see [status words](status-words.md#importance) |
 | question | Optional, at most 200 characters: one question asked of a profile that would establish the evidence, where the detail the name cannot hold goes |
 
 Spend criteria on what a search cannot settle: depth, scope, ownership,
@@ -61,7 +89,7 @@ thing at a time so its effect shows.
 | What the results show | Do |
 | --- | --- |
 | Screening keeps nearly everyone, or the recruiter rejects keeps for one reason | The rubric does not separate people: propose that reason as a criterion, preferred unless they call it a must-have |
-| Passes are mostly not shown on one criterion | Keep it; shortlist the closest as provisional with it as their screen question, as screening for the Shortlist says |
+| Most people are unknown on one criterion | Offer to judge it when screening and judge a visible sign instead, as evaluating candidates says |
 | Passes are mostly not met because the search does not look for it | Tighten the search to require its evidence; the rubric stays |
 | One required criterion no one meets, batch after batch | The bar may sit where the market isn't: offer to measure what it costs in candidates, or to make it preferred |
 | A faithful search finds far fewer than the role needs | Name the criterion that limits it most and propose loosening that one |

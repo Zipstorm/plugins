@@ -1,7 +1,12 @@
 # Watches
 
 Reporting and sourcing can schedule repeated measurements or searches through a
-client scheduler that can call SeekOut. SeekOut itself runs no watches.
+client scheduler that can call SeekOut. Where the connection offers candidate
+monitors, SeekOut can also keep checking a saved search of the global sources
+itself, once a week, and keep the people newly in its top results; it sends no
+message, so the recruiter asks to see what is new. A monitor cannot watch ATS or
+internal talent searches, and its search cannot be edited. Everything else below
+runs only through a client scheduler.
 
 ## What can be watched
 
@@ -52,7 +57,7 @@ that the recruiter is needed.
 ## The brief
 
 Lead with what moved and both dated figures; add at most three lines covering
-other changes, the implication for the req and an optional report refresh.
+other changes, the implication for the req and whether to measure again.
 New-match briefs show at most five people, strongest first, with search evidence
 and returned profile links. Quiet runs stay silent unless a status was requested.
 

@@ -91,7 +91,7 @@ start?”** through the same question mechanism with these complete labels:
 
 The benefit is part of each option label; do not omit it, and outside plain
 chat do not repeat the list in prose. **Stop and wait here.** Do not ask about a
-role, choose a starter, launch its recipe, or require a report to call this setup
+role, choose a starter, launch its recipe, or require a result to call this setup
 handoff complete. Only an accepted selection starts the
 [owning workflow](starter-prompts.md), including a free-text answer, which that
 handoff routes.

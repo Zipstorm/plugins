@@ -5,17 +5,23 @@ description: Answer role, market and pipeline questions with insight reports, ma
 
 # Build an insight
 
+A job description for a role starts its
+[role overview](../../references/role-overview.md); a report answers what the
+overview does not.
+
 Answer simple count/status questions directly. Build requested reports in
 SeekOut, which measures modules and keeps them in the role's workspace. Reuse
 criteria and answers. Read the [build guide](../../references/report-building.md)
 and relevant recipes ([market report](references/market-report.md) for broad
 asks). Related modules are optional: investigate useful leads, then retain only
 the visuals that explain the decision. Stop when the requested question is answered.
+A file the recruiter asks for (a PDF, a one-pager) follows
+[deliverables](../../references/deliverables.md).
 
 Use the explicit target, otherwise this conversation's current work, then
 consistent visible context. Ask only about remaining material ambiguity; keep
 unrelated chats and roles separate. Report follow-ups and what-ifs create its
-next version. Search, Shortlist and outreach follow-ups belong to those workflows.
+next version. Search, candidate and outreach follow-ups belong to those workflows.
 
 | The recruiter wants to know | Module |
 |---|---|
@@ -72,8 +78,10 @@ them. Drafting an email does not authorize sending it.
 One rubric per workspace, up to 10 named criteria with profile questions:
 required, preferred (rank keeps) and excluded (deal-breakers). Role planning saves
 the recruiter's stated requirements and confirmed interpretations; market findings
-never silently downgrade them. Otherwise save/edit only when asked. Shortlist
-screening uses the newest rubric unchanged.
+never silently downgrade them. Otherwise save/edit only when asked. Candidate
+screening uses the newest rubric unchanged. A role with an overview has its
+requirements as its rubric ([criteria](../../references/criteria.md)): change
+them on the overview, never in a separate rubric.
 
 Only for separate research requests: [company brief](references/company-brief.md)
 or [pay](references/pay.md). **Sourcing** owns candidate discovery;

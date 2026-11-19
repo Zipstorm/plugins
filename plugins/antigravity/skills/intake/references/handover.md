@@ -1,7 +1,7 @@
 # Hand over a role
 
 Start with what the next recruiter should do. Include the workspace, the role's
-trade-offs report and newer proposals, decisions with rationale, live commitments and owners,
+overview and its other saved records, newer proposals, decisions with rationale, live commitments and owners,
 search scope, saved candidates, source dates and unresolved access gaps.
 Read the linked work before describing it; unavailable records stay unavailable.
 

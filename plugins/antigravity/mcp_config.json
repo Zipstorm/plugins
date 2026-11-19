@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "seekout": {
-      "serverUrl": "https://mcp.seekout.io/v2/gemini"
+      "serverUrl": "https://mcp.seekout.io/v2/antigravity"
     }
   }
 }

@@ -6,7 +6,7 @@ description: Set up SeekOut with useful context sources and optional connections
 # Set up SeekOut
 
 Setup prepares the recruiter to choose their first task. It ends at the three
-starters and waits; role intake, searches and reports belong to the selected
+starters and waits; role intake, searches and measurements belong to the selected
 workflow afterward. Opening SeekOut alone opens Home, not onboarding. An
 explicit recruiting task goes to its owning skill without a setup detour.
 

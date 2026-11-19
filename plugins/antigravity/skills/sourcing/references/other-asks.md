@@ -13,6 +13,7 @@ actual relationship when an introduction is requested.
 
 For a proactive pool, name the future need, source dates, relevance, owner and
 refresh decision. Keep its search in a workspace. Offer recurring refreshes
-only through an available [scheduler](../../../references/watches.md); do not
-claim background monitoring. A named product workflow requires its actual
+only through an available [scheduler](../../../references/watches.md) or, where
+the connection offers them, a candidate monitor of the search; do not claim
+background monitoring otherwise, and never claim a monitor sends messages. A named product workflow requires its actual
 capability, not an imitation presented as that product's output.

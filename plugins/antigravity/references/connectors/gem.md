@@ -1,27 +1,26 @@
-# Keep Gem projects, sequences and applications distinct
+# Gem
 
-Resolve the role's Project, relevant Sequences and, when used, ATS job/application.
-A Project is a prospect list; a Sequence schedules messages from its owner/sender;
-an ATS application connects a person and job. None is the SeekOut workspace.
-Use returned identities and actual supported actions. If ATS records are needed,
-distinguish the [integrated ATS from the host plugin](ats.md).
+Gem is a sourcing and outreach tool of its own: a Project is a list of
+prospects, a Sequence sends them scheduled messages from its owner, and an
+application ties a person to a job. It overlaps with what a SeekOut workspace
+does, so the first thing to settle is which one holds the role's outreach. A
+Gem Project is never the SeekOut workspace, and neither updates the other.
 
-For prior contact, match the selected people by address/profile link and read
-relevant outreach history. Active sequences, replies, opt-outs and not-interested
-statuses affect whether outreach should proceed. No visible match is not proof
-of no prior contact; retain source/date and any missing suppression coverage.
+It comes in at these points of a role's work:
 
-Report sequence sent/reply counts with window and returned definitions. Gem and
-mailbox activity may overlap; never add them. Historical funnel/offer metrics
-need returned definitions and history, not current-stage arithmetic. Keep partial
-product/access coverage visible. Debriefs use the exact application's submitted
-scorecards under interviewing, not inferred engagement.
+- **Before outreach,** to check prior contact. Someone in an active Sequence,
+  or who replied, opted out or declined there, should not get a first message
+  from SeekOut as though nobody had written.
+- **When the team sends from Gem,** as the place that sends. SeekOut then
+  supplies the people, and their workspace status is set from what Gem reports
+  or the recruiter says.
+- **When results are asked for,** to read a Sequence's sends and replies. Gem's
+  counts and a mailbox's overlap; never add them.
 
-Enrollment may schedule every step. Treat it as outreach with the exact sequence,
-sender, recipients and suppression rules, not a harmless list save. An unavailable
-write leaves a proposal; an uncertain one needs original-status recovery under
-[external actions](../external-actions.md).
+Adding someone to a Sequence may schedule every step, so treat it as outreach,
+with the exact sequence, sender and recipients, never as saving to a list. No
+visible match is not proof of no prior contact. The rules for its ATS records
+are in [ATS connections](ats.md).
 
-Keep the returned job/application or project/sequence identities with the
-[workspace handoff](workspace-context.md); provider records are not workspace links
-until an available SeekOut operation confirms the mapping.
+Bring what it shows back to the role as the
+[workspace handoff](workspace-context.md) says.

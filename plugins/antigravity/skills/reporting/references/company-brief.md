@@ -11,4 +11,4 @@ or limited measurements stay gaps; do not add unrequested analyses.
 Explain hiring priorities, measured role context and useful next decisions.
 Private CRM, calendar, mail, notes and ATS context stays in the recruiter's
 version. A forwardable version contains only public facts and SeekOut figures.
-A company brief is separate from a market report for one role.
+A company brief is separate from measuring the market for one role.

@@ -5,11 +5,12 @@ The producing skill owns analysis and figures; this reference owns packaging.
 
 - Deliver the finished file using available client tools. If unavailable, say
   so and provide its content in chat.
-- Inventory source searches/reports/files and their scope/grain. Use only
+- Inventory source searches, measurements and files and their scope/grain. Use only
   measured or supplied figures, preferably returned rates/shares. Rates from
   the recruiter's systems show numerator and denominator. Measure missing
   figures through their owning workflow or label them unknown.
-- Reporting owns market reports, push-back briefs and talent flows; use its workflow.
+- Reporting owns market and company measurements, push-back briefs and talent
+  flows; use its workflow.
 - Attach scope, filters, unit, grain and date to figures. Preserve SeekOut's
   warnings verbatim. End with a source ledger and returned links; for mail or
   calendar without links, name connector, search terms/folder and time window.

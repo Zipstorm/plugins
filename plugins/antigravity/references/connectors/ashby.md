@@ -1,40 +1,31 @@
-# Read the selected Ashby job or application
+# Ashby
 
-During setup, follow the metadata-only [ATS connection route](ats.md) and end
-at the starters; do not read Ashby jobs or ask for a JD fallback. A later selected
-recruiting task may use an authorized reader with the required account scope.
-Keep provider/account and connection identity distinct from a job ID. Verify the
-plugin's schema and account access; installation does not connect the same
-account automatically. If a selected task's read fails, use its scoped
-JD/role-context fallback in the ATS note.
-Retrieve only the bounded open-role set that task needs, then the
-selected job's details. Do not infer open jobs from pipeline stages, candidate
-records or filter vocabulary. If no usable reader/context is available, retain
-that gap and reuse a shared JD/brief/link, or accept JD/role context within the
-task's remaining question budget. Read actual content; never substitute a sample.
+Ashby is the system of record for applications: who applied or was added to a
+job, which stage they are in, and what interviewers wrote. SeekOut is where
+people are found and reached before that: a workspace holds the candidates
+picked for a role and each one's outreach status. The two meet when a
+workspace's candidate becomes an application.
 
-Resolve the job by title/location and its returned identity. A job can have
-openings, postings and an interview plan; an application joins one candidate to
-one job. Read that application's stages and feedback, not the candidate's latest
-unrelated application. Reuse the selected job and its actual stage vocabulary.
+It comes in at these points of a role's work:
 
-Choose the [ATS connection](ats.md) for the task: SeekOut integration and the
-host's Ashby plugin have separate access and IDs. For live application records,
-use the available authorized reader; label synced results separately.
-Current pipeline stages are snapshots. Only returned history/metrics with scope
-and definitions support funnel rates or time in stage. Do not reconstruct them
-by dividing current counts.
+- **At intake,** to read the open job and its description, which the role's
+  overview is built from.
+- **While sourcing and before outreach,** to see whether someone already has an
+  application, so they are not approached as a stranger.
+- **After a candidate is interested,** as the destination when the recruiter
+  asks to move them into the hiring process.
+- **From the first interview on,** as the place where stages, feedback and the
+  decision live. SeekOut's workspace status does not follow them there.
 
-Check whose submitted feedback the action returns. A recruiter's own scorecards
-are not every interviewer's feedback; missing ones stay missing. Transcripts and
-notes cannot fill them. Use interviewing for the debrief and pipeline management
-for requested writes. A stage change does not imply a recorded rejection reason,
-a sent email or a merge. Verify each requested result independently.
+A stage in Ashby and a status in a SeekOut workspace are two records. Changing
+one never changes the other; show them side by side, labeled.
 
-Available schemas and errors determine account access and supported actions;
-do not infer writes from directory descriptions. Use a dated export or an unsaved
-proposal when the needed action is unavailable.
+A job has openings, postings and an interview plan; an application joins one
+candidate to one job, so read that application and not the person's latest
+other one. Current stages are a snapshot: rates and time in stage need returned
+history. A recruiter's own scorecards are not every interviewer's feedback.
+SeekOut's own ATS integration and this plugin are separate connections with
+separate IDs. The rules for both are in [ATS connections](ats.md).
 
-Keep the returned job/application or project/sequence identities with the
-[workspace handoff](workspace-context.md); provider records are not workspace links
-until an available SeekOut operation confirms the mapping.
+Bring what it shows back to the role as the
+[workspace handoff](workspace-context.md) says.

@@ -23,7 +23,7 @@ Ask one question only if the answer changes what gets made.
 Before doing anything, check the request against the skills. If one owns it,
 hand it over with the request in their words and stop here:
 
-- a pool, market or company brief: **reporting**;
+- measuring a pool, market or company, or a company brief: **reporting**;
 - role criteria, intake or a JD: **intake**;
 - finding people or off-limits employers: **sourcing**;
 - candidate messages: **outreach**;

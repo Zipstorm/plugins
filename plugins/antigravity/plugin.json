@@ -1,18 +1,25 @@
 {
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "seekout",
-  "version": "0.2.0",
+  "displayName": "SeekOut",
+  "version": "0.3.0",
   "description": "Find candidates, explore talent pools, and organize recruiting work with SeekOut. Connect your account to use its data and permissions in Antigravity.",
   "author": {
     "name": "SeekOut",
     "url": "https://www.seekout.com"
   },
+  "logo": "assets/seekout-icon.svg",
   "homepage": "https://docs.seekout.com",
   "keywords": [
     "recruiting",
     "candidates",
     "talent",
     "search"
+  ],
+  "suggestedPrompts": [
+    "Find candidates",
+    "Size the market for ML engineers in Europe with SeekOut.",
+    "Turn this job description into a recruiting brief with SeekOut."
   ],
   "repository": "https://github.com/Zipstorm/plugins"
 }

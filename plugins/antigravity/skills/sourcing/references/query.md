@@ -10,7 +10,9 @@ candidate requirement.
 
 For a current role in public profiles, put same-function, same-level title alternatives inside
 `cur_title:(...)`. AND independent required skill/domain families; OR synonyms
-or acceptable alternatives within each. Rank preferred keywords with
+or acceptable alternatives within each. Skills a job description requires
+together are separate keywords joined with AND, even when one line lists them;
+only stated alternatives ("Go or Rust") share a group. Rank preferred keywords with
 `AND (preferred_terms OR true:y)`. Exclude unwanted title bands with
 `AND NOT cur_title:(...)`. Omit groups the request does not need.
 

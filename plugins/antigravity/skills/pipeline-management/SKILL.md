@@ -1,6 +1,6 @@
 ---
 name: pipeline-management
-description: Save or list shortlisted candidates, export profiles, read ATS pipeline status, update recruiting records and track candidate-update commitments. Reporting owns performance reports and analytics.
+description: Save or list a role's candidates, export profiles, read ATS pipeline status, update recruiting records and track candidate-update commitments. Reporting owns performance reports and analytics.
 ---
 
 # Keep recruiting records useful and current
@@ -11,27 +11,31 @@ visible context consistent with that work. Ask only if the target remains
 materially ambiguous; keep unrelated chats and roles separate. Keep the
 workspace, search, ATS connection and application explicit before a write.
 
-Use SeekOut to shortlist the candidates the recruiter selects in the role's
-workspace, list who is saved there, read the workspace's pipeline and export
-people to a spreadsheet or the connected ATS. When the current work is a
-Shortlist, a follow-up such as "more like these" or "drop the last two" uses
-that workspace's Shortlist. **Sourcing** finds additional people; it does not
-silently add them to the Shortlist.
+Use SeekOut to save the candidates the recruiter selects to the role's
+workspace, list who is saved there, read and set where each of them stands,
+and export people to a spreadsheet or the connected ATS. When the current work is a
+workspace's candidates, a follow-up such as "more like these" or "drop the last two" uses
+that workspace's candidates. **Sourcing** finds additional people; it does not
+silently add them to the workspace.
 
-A SeekOut workspace holds shortlisted people. An ATS holds applications and
-stages. Saving to one does not update the other, and an assessment is not a
-human disposition.
+A SeekOut workspace holds the candidates picked for a role and each one's
+status there. An ATS holds applications and stages. Saving to one, or setting a
+status in one, does not update the other, and an assessment is not a human
+disposition.
 
 Choose the work requested:
 
-- [Saved people](references/project-records.md): shortlist or list candidates.
-- [Screening](../../references/screening.md): judge a batch for the Shortlist, and what to recommend when it keeps no one.
-- [Pipeline status](references/ats-read.md): current counts, people and stalled work.
+- [Saved people](references/project-records.md): save or list candidates.
+- [Candidate status](references/candidate-status.md): who was contacted,
+  replied or is interested, in one workspace or across roles; set or correct it.
+- [Screening](../../references/screening.md): judge a batch for the workspace, and what to recommend when it keeps no one;
+  when your SeekOut tools can save candidate evaluations, evaluate a search's top people and save every evaluation.
+- [ATS pipeline](references/ats-read.md): current applications, stages, counts and stalled work.
 - [Record changes](references/change-plans.md): notes, dispositions, requisitions and postings.
 - [Exports](references/export.md): files or ATS pushes with confirmed destinations.
 - [Candidate updates](references/candidate-updates.md): commitments, owners and next actions.
 
-When the Shortlist holds the people the recruiter wants, recommend how to reach
+When the workspace holds the candidates the recruiter wants, recommend how to reach
 them and why (**outreach**), weighing the workspace's suggested next step.
 Carry out an already-requested next step; otherwise leave it as a recommendation.
 

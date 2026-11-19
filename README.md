@@ -1,11 +1,9 @@
 # SeekOut agent plugins
 
-This repository is the distribution home for SeekOut recruiting plugins. Each client gets its own installable directory, version and reviewer guide.
+Connect a recruiting assistant to SeekOut to find candidates, plan roles and work with recruiting data using your organization's permissions.
 
-| Client | Package directory |
+| Client | Package |
 | --- | --- |
-| Antigravity | [Review candidate and installation guide](plugins/antigravity/README.md) |
-| Claude Code | Planned · `plugins/claude-code/` |
-| Cursor | Planned · `plugins/cursor/` |
+| Google Antigravity | [Install SeekOut and test candidate search](plugins/antigravity/README.md) |
 
-A client tag such as `antigravity/vX.Y.Z` identifies a release. A package on a review branch is a candidate. For the proposed package layout, skill ownership, release checks and rollback procedure, see the [distribution design](docs/distribution.md).
+The [distribution guide](docs/distribution.md) describes how to install a particular revision and export an Agent Plugins 1.0 package. [SeekOut documentation](https://docs.seekout.com) · [Support](https://support.seekout.com)

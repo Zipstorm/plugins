@@ -27,23 +27,23 @@ criteria or requested feedback; do not promote a preference to required.
 
 Changing a stated location, level, employer, credential, threshold or required
 skill needs the recruiter's direction. Run each proposed option as its own SeekOut
-search against the same baseline; label it and keep it in the role's workspace
-without replacing the active search. Report before/after counts and what changed.
+search against the same baseline; label it and keep it alongside the active search in the same scope. Report before/after counts and what changed.
 
-That is a what-if beside the search. When the record on screen is a report (a
-plan's trade-offs or talent map), the same question revises the report instead.
+That is a what-if beside the search.
+When the record on screen is a report (a plan's trade-offs or talent map), the
+same question revises the report instead.
 
 Separate feedback about one person from a reusable criterion. Keep function
 when changing seniority; add years only when supplied. A missing skill starts
 as a preference unless made required. Preserve previous decisions and avoid
 silently generalizing a rejection to everyone with similar background.
 
-## Ready to shortlist?
+## Ready to pick candidates?
 
 After presenting a search, give the recruiter your best-effort read on whether
-it is ready to shortlist from or worth refining once more. It is a subjective
+it is ready to pick candidates from or worth refining once more. It is a subjective
 judgment, not a rule or a measurement, and you may be wrong: say it as your
-opinion ("I think this looks ready to shortlist", "I'd refine once more
+opinion ("I think this looks ready to pick candidates from", "I'd refine once more
 first"), give the one or two reasons behind it, and never present it as a
 verdict. When what the search returned is too thin to judge, say so rather
 than guess.
@@ -65,11 +65,11 @@ Base it on what the search returned:
 - Feedback the recruiter has given that the search does not yet reflect.
 
 Then ask the recruiter once, with your own question tool, whether they agree,
-offering two choices with your recommendation first: **Start shortlisting
+offering two choices with your recommendation first: **Start picking candidates
 now** and **Refine the search** (naming the one change you would make first). When you are already asking what comes next, put
 your read and these two choices in that question rather than asking twice.
 
-On **Start shortlisting now**, start straight away with **pipeline-management**
+On **Start picking candidates now**, start straight away with **pipeline-management**
 and its [screening](../../../references/screening.md). On **Refine the
 search**, make the change and present the refined results. Start neither
 unasked.

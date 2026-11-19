@@ -29,7 +29,7 @@ switch to a different sender to bypass that requirement.
 
 Resolve candidates to their saved workspace identities and use SeekOut to
 review the exact campaign membership. Adding candidates to a campaign-linked workspace segment
-can feed that campaign automatically; shortlisting alone does not prove enrollment.
+can feed that campaign automatically; adding a candidate alone does not prove enrollment.
 Check membership before adding anyone again. Use the provided Add confirmation
 when enrollment is needed. Enrollment does not start the sequence.
 

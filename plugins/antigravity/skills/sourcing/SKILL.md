@@ -17,9 +17,11 @@ and workspace.
 Use the recruiter's explicit target first, otherwise this conversation's
 current work item, then visible context consistent with that work. Ask only
 if the target remains materially ambiguous; keep unrelated chats and roles
-separate. Run every candidate search in SeekOut, which keeps it in the role's
-workspace. A follow-up about the current search refines it; a what-if creates
-a labelled search beside it. A follow-up about the current report (a plan's
+separate. Run every candidate search in SeekOut. Use the role's workspace for work on that role. A follow-up about the current search refines it; a what-if creates
+a labelled search beside it. A follow-up about the role's current
+[overview](../../references/role-overview.md) changes the overview and saves it
+again (**intake**).
+A follow-up about the current report (a plan's
 trade-offs or talent map) revises that report instead (**reporting**).
 
 Preserve required, preferred and excluded criteria, including alternatives and
@@ -37,10 +39,10 @@ fix your interpretation before proposing any change to the recruiter's bar.
 Present results in SeekOut with a short explanation of scope and limitations.
 
 After presenting the results, give your best-effort read on whether the
-search is ready to shortlist and ask the recruiter whether to start
-shortlisting or refine ([ready to shortlist?](references/refine.md#ready-to-shortlist)).
-Carry out an already-requested shortlist step without asking. Once the
-recruiter chooses shortlisting, follow **pipeline-management** and its
+search is ready to pick candidates from and ask the recruiter whether to start
+picking or refine ([ready to pick candidates?](references/refine.md#ready-to-pick-candidates)).
+Carry out an already-requested step to pick candidates without asking. Once the
+recruiter chooses to pick candidates, follow **pipeline-management** and its
 [screening](../../references/screening.md); when screening keeps no one, say
 what blocked it and recommend one next step.
 
@@ -55,7 +57,9 @@ Read only the recipe the work needs:
 - [Confidential searches, referrals and proactive pools](references/other-asks.md)
 - [Japan](../../references/packs/market-japan.md)
 
-To plan a role, use [plan a role](../../references/report-building.md).
+To plan a role from its job description, build its
+[role overview](../../references/role-overview.md).
+For a measured plan beyond it, use [plan a role](../../references/report-building.md).
 **Intake** defines the role; **interviewing** assesses named people;
 **reporting** measures markets; **pipeline-management** saves candidates.
 

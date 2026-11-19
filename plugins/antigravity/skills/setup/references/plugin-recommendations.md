@@ -15,7 +15,7 @@ For an explicit recruiting task, recommend only what that task needs.
 | Pipeline tracking | Their ATS by name for stages, applications and requisition records. Saving and listing candidates in a SeekOut workspace needs no extra plugin. |
 
 These are discovery terms, not a catalogue of available integrations. Another
-named provider can replace an example. SeekOut candidate search, market reports
+named provider can replace an example. SeekOut candidate search, market measurements
 and saved candidates do not by themselves require extra plugins.
 
 ## Check the selected source, then make one useful offer

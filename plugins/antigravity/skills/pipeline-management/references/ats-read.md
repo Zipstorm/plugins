@@ -3,7 +3,7 @@
 Use the recruiter's chosen ATS connection, exact requisition and requested
 window. Prefer its own connector; otherwise use the pipeline reads SeekOut
 actually provides. A supplied export is dated file evidence, not a live read.
-Public profiles and workspace shortlists cannot stand in for the ATS.
+Public profiles and a workspace's candidates cannot stand in for the ATS.
 
 Resolve the connection's actual job, stage, status and reason values before
 filtering; names and casing vary. Preserve existing filters or explicitly

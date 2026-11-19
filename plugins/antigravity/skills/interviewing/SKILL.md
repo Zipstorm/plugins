@@ -1,11 +1,11 @@
 ---
 name: interviewing
-description: Evaluate named candidates and support interview preparation, scheduling, debriefs, reference checks and offer discussions.
+description: Evaluate named candidates and support interview preparation, scheduling, debriefs, reference checks and offer discussions. Also books any recruiting meeting on the calendar (intake, screen, interview, panel, debrief; a booking link for someone outside the company) and preps a day of meetings ("prep me for today") with a private prep appointment beside each.
 ---
 
 # Have a useful candidate conversation
 
-Deliver the requested assessment, interview preparation, booking or debrief.
+Deliver the requested assessment, interview preparation, booking, meeting prep or debrief.
 Help the recruiter decide what to ask, what to listen for and what to do next.
 Use the role's current criteria (its rubric in SeekOut) and supplied candidate
 material; use SeekOut to read a SeekOut candidate's full profile. Give a useful
@@ -28,12 +28,21 @@ Choose the work requested:
 - [Review candidates](references/evaluate.md): evidence, gaps and a recommendation.
 - [Prepare the interview](references/prepare.md): questions, probes, what good
   evidence looks like, and space for notes. Help during the conversation when asked.
-- [Use the calendar](references/calendar.md): book or update the interview and
+- [Book a meeting](references/scheduling.md): any recruiting meeting, with
+  colleagues (three free times to pick from) or someone outside the company (their
+  booking link by email).
+- [Use the calendar](references/calendar.md): update an existing interview and
   attach a question kit or preparation link for the right audience.
+- [Prep a day of meetings](references/meeting-prep.md): one confirmation, then a
+  private prep appointment beside each meeting from the people's recent messages.
 - [Write up and debrief](references/debrief.md): separate answers, observations
   and judgments; identify the next decision.
 - [Reference and background checks](references/checks.md) or
   [offers and pre-start handoff](references/closing.md): support the human owners.
+
+Start from the workspace: the candidate is one of a role's candidates, with a
+status there. A confirmed booking, and a decision after a debrief, change that
+status; set it as the linked reference says and name the workspace.
 
 After a debrief, recommend the decision to record in the pipeline and why
 (**pipeline-management**). Carry out an already-requested next step; otherwise

@@ -1,6 +1,6 @@
 # Run and show a search
 
-Use the role's workspace. Reopen a saved search in SeekOut from its returned
+Use the role's workspace for a search that belongs to it. Reopen a saved search in SeekOut from its returned
 reference; if results expired, rerun its saved criteria in SeekOut. Before
 refining, read the search's current state in SeekOut and resend the whole query, filters and region with only the intended
 change. Independent searches and what-ifs get separate searches. Follow shared

@@ -3,7 +3,8 @@
 Give the recruiter a usable first draft: known role facts, the most consequential
 open decisions, why each matters, and an agenda fitting the meeting. Mark
 missing facts; do not replace the requested preparation with a questionnaire.
-Use the available JD, the role's trade-offs report and supplied context before seeking more.
+Use the available JD, the role's overview and supplied context before seeking more.
+A role planned in a trade-offs report has that report too.
 
 For a requested research packet, resolve the correct job and use relevant,
 authorized ATS history, team context and role-specific messages. Explain why

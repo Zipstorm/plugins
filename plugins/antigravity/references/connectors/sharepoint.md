@@ -1,14 +1,28 @@
 # SharePoint
 
-Use for team-owned role documents, interview kits and hiring trackers. Follow
-[document work](documents.md). Resolve the site, library or drive and item;
-matching filenames in different sites are different records.
+SharePoint is where the team's own documents about a role live: team-owned role documents, interview kits and hiring trackers. SeekOut
+holds the role's overview, searches and candidates; a document here is source
+material for that work, or a copy of it made for people who do not open
+SeekOut.
 
-A search index may return a stale preview or omit an unreadable item. Read the
-selected document before treating its contents as current. If the task concerns
-a list, use its actual columns and item identities; do not treat a document
-library as an ATS or infer pipeline history from a current tracker snapshot.
+It comes in at these points of a role's work:
 
-Carry site/container and item IDs, version/date and returned links into the
-[workspace handoff](workspace-context.md). A team document's access does not
-transfer to candidates when its link is pasted into an invitation.
+- **At intake,** to read the job description, brief or approved pay band the
+  role's overview is built from. What a document says is proposed until the
+  recruiter accepts it into the role's requirements.
+- **Before interviews,** to read or write the interview kit.
+- **When a deliverable is asked for,** to save a document, tracker or update
+  for the hiring team.
+
+Nothing written here changes the workspace, and a candidate's status is never
+read from a tracker when the workspace can be read.
+
+Settle the site and library first: the same filename in two sites is two
+documents. A search preview can be stale, so read the document itself. A list
+or a tracker is a snapshot, not a pipeline history, and a team document's
+access does not pass to a candidate when its link is pasted into an invitation.
+
+The rules for versions, tables and saving are in [document work](documents.md).
+
+Bring what it shows back to the role as the
+[workspace handoff](workspace-context.md) says.

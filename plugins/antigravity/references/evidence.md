@@ -44,11 +44,11 @@ Apply these rules to claims about candidates, employees and measured populations
 
 See [US recruiting safeguards](us-recruiting-safeguards.md) for employment-specific rules.
 
-## Report audience
+## Writing for the reader
 
-Across all measured and written reports, saved briefs and exported documents,
+Across every answer, document, saved brief and export built from measurements,
 write about the talent and the hiring decision, not the system that found it.
-A report's limits and risks concern evidenced recruiting constraints: where the
+Its limits and risks concern evidenced recruiting constraints: where the
 relevant talent is, required skills or seniority, and which requirement changes
 have measured support. Do not turn missing filters into talent-market findings.
 
@@ -64,7 +64,7 @@ support a recommendation. State the unanswered hiring question in plain language
 when it matters, without an account of search execution. For example, “We cannot
 yet compare the senior-only pool” is useful when seniority drives the decision;
 “the backend current-title family includes senior titles” is not. A missing radius
-alone warrants no report warning; an onsite hiring decision may warrant agreeing
+alone warrants no warning; an onsite hiring decision may warrant agreeing
 a commute area before comparing local pools. Never infer scarcity or hiring
 difficulty from missing data. Keep relevant sources and dates without repeating
 internal guardrails next to every figure.

@@ -10,12 +10,9 @@ capability read is not proof that no integration exists. Each operation checks
 access again; a listed connection does not promise every ATS action.
 An empty feature list leaves a capability unknown, not unsupported.
 
-During setup, inspect only connection metadata or the named provider's plugin
-listing. Recommend only an eligible matching plugin returned by the host's
-directory. Do not list/read jobs through either the integrated reader or the
-provider plugin, resolve accounts, or ask for a JD fallback. Setup ends at the
-starters even if the optional connection is skipped or unavailable. Installing
-a plugin does not automatically connect the existing SeekOut account.
+Installing a plugin does not automatically connect the existing SeekOut
+account. Setup reads connection metadata only, as the
+[connections index](README.md#finding-a-missing-connector) says.
 
 For a selected recruiting task, inspect actual job-list/read actions before use.
 Verify the provider/account scope separately. Reuse an explicit or unique
@@ -37,7 +34,8 @@ For live applications, interview feedback or stage changes through a connected
 ATS plugin, use that plugin's available actions and returned job/application IDs.
 SeekOut capability checks do not discover host plugins or grant them access.
 Do not pass a SeekOut connection ID as a provider record ID, or switch paths to
-retry an uncertain write.
+retry an uncertain write. An ATS stage is not a workspace status: a change in
+one is never written to the other unless the recruiter asks for both.
 
 Keep the source, account, job and observation date explicit. Synced SeekOut
 results and live ATS records can differ; never merge their counts. Read the

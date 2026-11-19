@@ -10,6 +10,14 @@ incompatible distributions, invent percentiles or average conflicting sources.
 Label an employer's own band as theirs. Individual offers belong to
 **interviewing**. Never collect salary history.
 
+## Pay on a role overview
+
+A role overview holds pay in its own pay fields, never a table: the low, median
+and high for a year, whether they are base or total pay, what they are (which
+percentiles, how many salaries) and the page read with its date, as the
+[role overview](../../../references/role-overview.md) says. Compare like with
+like: a base range against base pay, total against total.
+
 ## Pay bands in a report
 
 When a report needs pay (a plan for a role, a market or a push-back brief), research

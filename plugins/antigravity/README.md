@@ -1,24 +1,25 @@
 # SeekOut for Antigravity
 
-Use the **Find candidates** starter to search for people by role with your SeekOut account. The package includes the MCP V2 skills for setup, intake, sourcing, interviewing, outreach, pipeline management and reporting and connects to `https://mcp.seekout.io/v2/gemini`. Your SeekOut organization must have MCP access and an eligible license.
+Find candidates, plan a role, evaluate talent, draft outreach, manage a pipeline and build reports with your SeekOut account. The plugin includes seven MCP V2 skills and connects to `https://mcp.seekout.io/v2/antigravity`. Your organization needs MCP access and an eligible SeekOut license.
 
-## Install a review candidate
+## Install the review build
 
-Check out the commit supplied with the review invitation. From the package directory containing this README, run:
+Check out the supplied commit and run these commands from `plugins/antigravity/`:
 
 ```sh
-agy plugin validate --strict .
+agy plugin validate . --strict
 agy plugin install .
 agy plugin list --json
 ```
 
-Check that the enabled SeekOut entry shows version **0.2.0**, the expected installation path, and all seven skills. Open **Customizations → Installed → SeekOut → Accounts**, sign in to the plugin's SeekOut connection, and complete the browser flow. If the browser remembers another SeekOut account, use a separate browser profile for review. In the plugin's **MCP** tab, confirm that `search_candidates` is available.
+Look for **SeekOut 0.3.0**. In Antigravity, open **Customizations → Installed → SeekOut → Accounts** and connect the supplied reviewer account. Choose that account in the browser if another account is already signed in. Return to the plugin's **MCP** tab to check its SeekOut connection. Its tools include `search_candidates`. The seven skills are `setup`, `intake`, `sourcing`, `interviewing`, `outreach`, `pipeline-management` and `reporting`.
 
-## Try the two sourcing entry points
+## Test candidate search
 
-1. In a fresh conversation, type **CFO**. Expect a question about your intent. The first turn should show zero candidate searches.
-2. Open the installed SeekOut plugin, click **Find candidates**, and send the prefilled message. When asked for the role, reply **CFO**. Expect current CFO results on that turn. Expand the execution details and confirm that the installed plugin's `search_candidates` handled the call. A call to `search_people` identifies the older connection.
+1. In a fresh SeekOut conversation, enter **CFO**. Expect a question about what you want to do. The tool trace should show zero candidate searches.
+2. In another fresh conversation, select the plugin's **Find candidates** starter and send it. Reply **CFO** when it asks for the role. Expect the plugin's V2 connection to run a search on that turn and return current CFO profiles. Check the tool trace for `search_candidates` on the plugin's SeekOut server. A `search_people` call belongs to a V1 connection.
+3. Review the returned roles and scope in chat. A title search with no requested location should keep all regions in scope. A returned count alone does not verify that the intended people appeared.
 
-Searches may consume credits. If a search returns an unknown outcome, record its request ID and tool name before deciding whether to retry. Include the package commit, client version and result when reporting a problem. Use the support channel for private troubleshooting details.
+Searches can use credits. If SeekOut reports an unknown outcome, keep the request ID and stop before running a second search. When reporting an issue, share the package revision, client version and tool name privately with support.
 
 [SeekOut documentation](https://docs.seekout.com) · [Support](https://support.seekout.com) · [Privacy](https://www.seekout.com/privacy) · [Terms](https://www.seekout.com/terms)

@@ -1,8 +1,11 @@
 # Push-back brief
 
-Build a hiring-manager decision from the as-written pool (the report's
+For a role with an overview, build a hiring-manager decision from it: the pool
+as written and its ideas, each one change counted from that pool.
+Otherwise build it from the as-written pool (the report's
 baseline) and its requirement trade-offs, each a variant relaxing one
-requirement. Preserve non-negotiable anchors unless the recruiter puts them up
+requirement.
+Preserve non-negotiable anchors unless the recruiter puts them up
 for discussion.
 
 Write the supported constraint, options, recommendation and manager asks in

@@ -1,4 +1,4 @@
-# Save and read the shortlist
+# Save and read a workspace's candidates
 
 Use the intended workspace and the people the recruiter selected. State that
 destination before saving them in SeekOut. Take profile identities and search provenance from
@@ -9,15 +9,16 @@ For a referral or externally supplied person, match their profile link or
 name plus professional anchors first. A name alone is not a confirmed identity.
 Save only the unambiguous SeekOut match; leave unresolved people explicitly unsaved.
 
-Saving shortlists people, and accepts only SeekOut-returned people. It does
+Saving adds people as the workspace's candidates, and accepts only SeekOut-returned people. It does
 not add notes, merge records, book interviews or change ATS stages. Saved
-people can be exported directly; a shortlist not yet saved stays in the
-conversation. Outreach statuses follow outreach activity and are read
-only here. Use [record changes](change-plans.md) for requested ATS updates.
+people can be exported directly; picks not yet saved stay in the
+conversation. A saved person carries a status in that workspace; read and set
+it as [candidate status](candidate-status.md) says. Use
+[record changes](change-plans.md) for requested ATS updates.
 Keep recruiter keep/pass decisions separate from assessment findings.
 
 Read the workspace in SeekOut before listing saved people. Show its actual names, count,
-filters and returned outreach statuses. For writes, report added, already saved
+filters and each person's returned status. For writes, report added, already saved
 and failed counts from the result, not the request. Preserve already-saved people.
 A search is kept by sourcing, not by saving every result as a candidate.
 

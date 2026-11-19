@@ -1,6 +1,6 @@
 # Status words
 
-Use these for criterion-based screening, shortlists, applications, interview kits,
+Use these for criterion-based screening, candidates, applications, interview kits,
 work samples and debriefs.
 
 ## Importance

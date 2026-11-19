@@ -2,7 +2,7 @@
 
 A workspace keeps one job description, and every change to the job is a new
 version of it. Before starting one, check whether the workspace already has
-one; if it does, revise that report instead, and say in one line what the new
+one; if it does, revise that one instead, and say in one line what the new
 version changed (for example "Kubernetes moved to nice to have; location now
 remote US").
 
@@ -20,7 +20,7 @@ those lines carry about the job, such as its place and work arrangement, in
 the key-facts line. The recruiter pastes once and waits for the work: never ask
 them to clean or confirm it.
 
-Save it as the report's body, laid out in markdown as a real job posting:
+Save its text laid out in markdown as a real job posting:
 
 - `# ` and the job title first;
 - one bold line of the key facts the text gives, joined by ` · `: company,
@@ -32,8 +32,8 @@ Save it as the report's body, laid out in markdown as a real job posting:
   About the company (a short paragraph). Write the points of the middle
   sections as bullets, one point each.
 
-A job description is its own report and holds only its body: no modules,
-findings or recommendations. Keep the recruiter's own words and order
+A job description holds only the posting: no findings or
+recommendations. Keep the recruiter's own words and order
 within a section; fix only spacing and obvious typos. Never invent a
 requirement, a pay range, a benefit or a section with no source text, and never
 turn a preference into a requirement.

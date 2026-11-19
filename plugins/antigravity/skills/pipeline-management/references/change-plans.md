@@ -31,12 +31,12 @@ pay history, protected/health details and verbatim personnel feedback.
 
 Distinguish proposed from approved changes. For hold, cancellation or rescope,
 identify affected applications, interviews, offers, postings, outreach and
-the role's workspace reports before writing. Update only what was authorized; list other
+the role's workspace records before writing. Update only what was authorized; list other
 systems needing follow-up. A brief edit does not update those systems.
 
 Use approved location, pay, dates and application destination. Preserve live/draft
 versions and channel receipts. Treat linked measurements and assessments as
-potentially stale after criteria change; retain originals and route the role's
-next report version to intake/sourcing. Pay-transparency and candidate-data obligations
+potentially stale after criteria change; retain originals and route the next
+version of the role's record to intake/sourcing. Pay-transparency and candidate-data obligations
 follow [shared safeguards](../../../references/us-recruiting-safeguards.md) and
 the responsible policy owner, not a canned jurisdictional assurance.

@@ -27,12 +27,12 @@ claim it was attached. Report the confirmed event and what was added.
 
 ## Book or change the interview
 
-Reuse agreed attendees, stage, duration and time zones. Candidate availability
-comes from their reply or supplied facts, not profile location. Check required
-attendees' free/busy without exposing other meetings; unreadable means unknown.
-Recheck the agreed slot immediately before booking once. Confirm the returned
-time, calendar, attendees and joining details. For an uncertain write, read the
-original event/status before retrying; never create a duplicate.
+Book a new meeting as [scheduling](scheduling.md) says. To move an existing one,
+read it first and offer new times the same way; preserve its attendees, joining
+details and description. Candidate availability comes from their reply or
+supplied facts, not profile location. For an uncertain write, read the original
+event/status before retrying; never create a duplicate. A new booking with a
+workspace's candidate updates their status as [scheduling](scheduling.md) says.
 
 Use shared [calendar guidance](../../../references/connectors/calendar.md)
 for event actions. Without an available action, provide proposed times or an

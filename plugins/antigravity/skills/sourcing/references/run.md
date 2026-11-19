@@ -25,7 +25,6 @@ alone. Report outcome, date and source without private message text. Preserve
 opt-outs; say when contact history could not be checked.
 
 Present the search in SeekOut once, with scope, material limitations and any
-refinement explained briefly in chat. Do not repeat the candidate list when
-the pane already shows it. Follow shared [evidence](../../../references/evidence.md)
+refinement explained briefly in chat. For the open-role starter, include up to three returned people in chat and explain each match. For other searches, refer to the list in the pane when the client confirms it is visible. Follow shared [evidence](../../../references/evidence.md)
 and the relevant [connector note](../../../references/connectors/README.md)
 when reading another system.

@@ -23,8 +23,7 @@ Classify the result:
   Read back if possible. Never retry an unknown outcome or resend it, or switch
   providers.
 
-For an unknown SeekOut write/spend, resend the identical request with its
-original key to recover its outcome. A new key creates a second action.
+Use a read-back when available. Replay an identical request with its original key only when the operation explicitly provides same-key recovery. For an unknown search outcome, stop and give the recruiter the request ID. A new search requires a separate request and may use credits again.
 
 ## When a capability is missing
 

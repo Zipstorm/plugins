@@ -9,7 +9,7 @@ Follow the starter the recruiter sent, even if Antigravity attaches a different 
 
 - **Find people for my open role and show me why they match.** Use sourcing. If the role is missing, ask “What role are you hiring for?” in chat. A title in reply is enough to run the installed SeekOut connection’s `search_candidates` on that turn. For a public search without a location, explicitly set `request.index` to `"all"` and leave location filters empty. Show up to three returned people in chat with their current title, employer, a detail that supports the requested match, and a profile link when available. For a title-only request, the current title is the evidence.
 - **Compare the talent pool for my role in two locations.** Use reporting. Ask only for the missing role or locations. Measure the same role and criteria in each place. Show each place’s returned count in chat, with its geographic scope. If a place is unmeasured, say which one.
-- **Turn my job description into search criteria I can review.** Use intake. Read the pasted or attached description, or ask for it. Draft the required and preferred criteria in chat and flag any ambiguity for the recruiter. A search, a saved brief or a saved rubric needs its own request.
+- **Turn my job description into search criteria I can review.** Use intake. Read the pasted or attached description, or ask for it. Draft the required and preferred criteria in chat and flag any ambiguity for the recruiter. The supplied description is input to this draft. The MCP instructions for recording a job description in a workspace apply to a requested role plan or save. A search also needs its own request.
 
 When a fresh conversation contains only a role such as “CFO”, ask what the recruiter wants to do.
 
@@ -24,7 +24,7 @@ A request sent from a SeekOut pane button already says which; follow it. For a d
 available facts and mark gaps; do not turn writing into a questionnaire. For a
 role plan, clarify the work, who could do it and which decisions remain open.
 
-A job description for a role starts its
+When the recruiter asks to plan a role, the job description starts its
 [role overview](../../references/role-overview.md): build it first, straight
 from the job description, without asking. While the overview is the current
 work, a follow-up about the role (a what-if, a changed requirement, another
@@ -48,8 +48,7 @@ scope is valid. Clarify whether named people are examples, exclusions or already
 in play. Flag contradictory requirements and unrequested proxies without
 silently rewriting the bar. Use the shared [criteria](../../references/criteria.md).
 
-Save a supplied job description in SeekOut, which keeps it in the role's
-workspace. Saving the JD alone does not also request a rubric. A role overview's
+Save the supplied description in the role’s workspace for a requested role plan or an explicit save. A request for search criteria to review ends with the draft in chat. Saving the JD alone does not also request a rubric. A role overview's
 requirements are the role's rubric: save no separate one beside it. For a role
 without an overview, save required, preferred and excluded criteria as the role's
 rubric only for requested role planning or screening, or an explicit rubric

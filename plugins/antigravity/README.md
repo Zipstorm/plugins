@@ -4,13 +4,14 @@ Find candidates, plan a role, evaluate talent, draft outreach, manage a pipeline
 
 ## Install the review build
 
-Check out the supplied commit and run these commands from `plugins/antigravity/`:
+Install from the public repository and confirm SeekOut is enabled.
 
 ```sh
-agy plugin validate . --strict
-agy plugin install .
+agy plugin install https://github.com/Zipstorm/plugins
 agy plugin list --json
 ```
+
+To reproduce a specific review, check out the supplied commit in a clone of the repository. Run `agy plugin validate . --strict` and `agy plugin install .` from its root.
 
 Look for **SeekOut 0.3.6** on the plugin details page. A previously installed SeekOut pilot can hide the review build. Use a clean test profile or temporarily move the pilot outside the plugin directory and restart Antigravity. In Antigravity, open **Customizations → Installed → SeekOut → Accounts** and connect the supplied reviewer account. Choose that account in the browser if another account is already signed in. Return to the plugin's **MCP** tab to check its SeekOut connection. Its tools include `search_candidates`. The seven skills are `setup`, `intake`, `sourcing`, `interviewing`, `outreach`, `pipeline-management` and `reporting`.
 

@@ -1,0 +1,58 @@
+name: Verify Antigravity installation
+
+on:
+  pull_request:
+    paths:
+      - ".antigravity-plugin/**"
+      - ".github/workflows/antigravity-install.yml"
+      - "mcp_config.json"
+      - "plugins/antigravity/**"
+      - "rules/**"
+      - "scripts/sync-antigravity-root.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    env:
+      GIT_TERMINAL_PROMPT: "0"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check the repository entry point
+        run: python3 scripts/sync-antigravity-root.py --check
+      - name: Install Google's CLI
+        run: |
+          curl --proto '=https' -fsSL --retry 2 --max-time 60 https://antigravity.google/cli/install.sh -o "$RUNNER_TEMP/install-agy.sh"
+          sh "$RUNNER_TEMP/install-agy.sh" --dir "$RUNNER_TEMP/agy-bin"
+          echo "$RUNNER_TEMP/agy-bin" >> "$GITHUB_PATH"
+      - name: Install SeekOut in a fresh profile
+        shell: bash
+        run: |
+          agy --version
+          agy plugin list --json | jq -e '[.[]? | select(.name == "seekout")] | length == 0'
+          agy plugin validate . --strict
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
+            agy plugin install "https://github.com/$GITHUB_REPOSITORY"
+          else
+            agy plugin install .
+          fi
+          agy plugin list --json > "$RUNNER_TEMP/installed.json"
+          expected_skills=$(jq -n '$ARGS.positional | map(split("/")[-2]) | sort' --args plugins/antigravity/skills/*/SKILL.md)
+          jq -e --arg version "$(jq -r .version plugins/antigravity/plugin.json)" --argjson skills "$expected_skills" '
+            [.[] | select(.name == "seekout")] | select(length == 1) | .[0] |
+            select(.enabled and .version == $version and
+              ($skills | length) > 0 and (.skills | sort) == $skills and
+              .rules == ["AGENTS.md"] and .mcpServers == ["seekout"])
+          ' "$RUNNER_TEMP/installed.json"
+          installed_path=$(jq -er '.[] | select(.name == "seekout") | .path' "$RUNNER_TEMP/installed.json")
+          agy plugin validate "$installed_path" --strict
+          diff -qr plugins/antigravity "$installed_path/plugins/antigravity"
+          for file in .antigravity-plugin/plugin.json rules/AGENTS.md mcp_config.json; do
+            cmp "$file" "$installed_path/$file"
+          done

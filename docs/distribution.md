@@ -1,6 +1,16 @@
 # Install a specific version
 
-Check out the commit or tag supplied with your review invitation. The [Antigravity package](../plugins/antigravity/README.md) has its own manifest, connection settings, skills and installation instructions. Point the Antigravity installer at `plugins/antigravity/`.
+Clone this repository, check out the commit or tag supplied with your review invitation, and run these commands from the repository root.
+
+```sh
+agy plugin validate . --strict
+agy plugin install .
+agy plugin list --json
+```
+
+The [Antigravity package](../plugins/antigravity/README.md) also supports installation directly from `plugins/antigravity/`. Its manifest, MCP configuration and rule are the source for the files that Antigravity discovers at the repository root. After updating them, run `python3 scripts/sync-antigravity-root.py`. Use `--check` to verify those files match. Both install paths use the same seven skill files.
+
+To check what a reviewer gets from GitHub, run **Verify Antigravity installation** on `main` in the repository’s Actions tab. It installs from the public URL on a fresh runner and compares the installed package with that revision.
 
 ## Agent Plugins 1.0
 

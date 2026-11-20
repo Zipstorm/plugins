@@ -1,10 +1,10 @@
-# Prep a day of meetings
+# Prepare for interviews and hiring meetings
 
-Start with the calendar for the requested day and offer a chat brief for selected meetings. Recent correspondence can enrich a brief when the recruiter authorizes the sources. Private prep appointments are an optional, separately requested calendar action. Describe the outcome for each meeting. Use recruiting workspace context only for a matched role and the scope the recruiter requested.
+Use this guide when the recruiter asks to prepare for interviews or hiring meetings. Start with the calendar for the requested day and offer a chat brief for the selected hiring meetings. Recent correspondence can enrich a brief when the recruiter authorizes the sources. Private prep appointments are an optional, separately requested calendar action. Use recruiting workspace context only for a matched role and the scope the recruiter requested.
 
 ## Which meetings
 
-List the remaining meetings for the requested day with their subjects and times. Exclude cancelled, declined and all-day events, personal blocks, existing prep appointments and meetings that already have prep. Let the recruiter choose the meetings they want covered.
+List the remaining interviews and hiring meetings for the requested day with their subjects and times. Omit unrelated events, cancelled or declined meetings, all-day events, personal blocks and prep appointments. A hiring meeting remains eligible for a chat brief even if it already has a question kit or prep appointment. Let the recruiter choose the meetings they want covered.
 
 Offer a calendar-only brief in chat. Before opening recent mail or messages, specify the people, sources and time window and obtain their permission for those reads. Before creating any private calendar appointments, name the selected meetings, destination and what will be written, and get a request covering that action. A meeting selection establishes only the scope. The recruiter may choose either action, both, or neither.
 

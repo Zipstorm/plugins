@@ -4,7 +4,7 @@ Use this guide when the recruiter asks to prepare for interviews or hiring meeti
 
 ## Which meetings
 
-List the remaining interviews and hiring meetings for the requested day with their subjects and times. Omit unrelated events. Exclude cancelled, declined and all-day events, personal blocks, existing prep appointments and meetings that already have prep. Let the recruiter choose the hiring meetings they want covered.
+List the remaining interviews and hiring meetings for the requested day with their subjects and times. Omit unrelated events, cancelled or declined meetings, all-day events, personal blocks and prep appointments. A hiring meeting remains eligible for a chat brief even if it already has a question kit or prep appointment. Let the recruiter choose the meetings they want covered.
 
 Offer a calendar-only brief in chat. Before opening recent mail or messages, specify the people, sources and time window and obtain their permission for those reads. Before creating any private calendar appointments, name the selected meetings, destination and what will be written, and get a request covering that action. A meeting selection establishes only the scope. The recruiter may choose either action, both, or neither.
 

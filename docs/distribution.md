@@ -37,7 +37,7 @@ To check skill discovery, start each example in a new conversation. The middle p
 | `setup` | Help me connect my recruiting account to the SeekOut plugin. | Help me connect my accounting software to my bank. |
 | `sourcing` | Find backend engineers for my open role in Austin. | Find vendors for a new payroll system. |
 
-Also try “Find time for my dentist appointment.” Scheduling a personal appointment should leave SeekOut idle.
+Also try “Find time for my dentist appointment.” Scheduling a personal appointment should leave SeekOut idle. “Open SeekOut” should open Home without starting onboarding. A request for a chat brief for an interview that already has a prep appointment should produce the brief without booking another appointment.
 
 For issues, report the package commit, Antigravity version, and which prompt or step failed. Share account details and live candidate results privately.
 

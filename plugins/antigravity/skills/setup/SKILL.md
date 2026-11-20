@@ -1,6 +1,6 @@
 ---
 name: setup
-description: Connect SeekOut for recruiting, choose context sources, learn what the plugin can do, or change a SeekOut workflow preference. Don't use for an employee onboarding plan, configuring unrelated apps, or opening SeekOut without a setup request.
+description: Open SeekOut Home, connect a recruiting account to SeekOut, choose context sources, learn what the plugin can do, or change a SeekOut workflow preference. Don't use for employee onboarding plans, general IT support, or configuring unrelated apps.
 ---
 
 # Set up SeekOut

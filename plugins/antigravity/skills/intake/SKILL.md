@@ -1,17 +1,17 @@
 ---
 name: intake
-description: Define or revise a role's brief and criteria from a JD, recruiter requirements or meeting notes; prepare hiring-manager conversations and role handovers.
+description: Define a hiring brief in SeekOut, turn a job description or hiring-manager notes into search criteria, or prepare a role handover. Don't use for project briefs, general meeting notes, or feedback on an individual candidate.
 ---
 
 # Make the role clear
 
+Use these instructions for SeekOut recruiting tasks. For unrelated requests, use the client's usual workflow and leave SeekOut tools idle. If a fresh conversation contains only a role such as “CFO”, ask what the user wants to do.
+
 Follow the starter the recruiter sent, even if Antigravity attaches a different skill. Use the information already in this conversation. A reply to a starter supplies the missing input for that same task.
 
-- **Find people for my open role and show me why they match.** Use sourcing. If the role is missing, ask “What role are you hiring for?” in chat. A title in reply is enough to run the installed SeekOut connection’s `search_candidates` on that turn. For a public search without a location, explicitly set `request.index` to `"all"` and leave location filters empty. Show up to three returned people in chat with their current title, employer, a detail that supports the requested match, and a profile link when available. For a title-only request, the current title is the evidence.
-- **Compare the talent pool for my role in two locations.** Use reporting. Ask only for the missing role or locations. Measure the same role and criteria in each place. Show each place’s returned count in chat, with its geographic scope. If a place is unmeasured, say which one.
-- **Turn my job description into search criteria I can review.** Use intake. Read the pasted or attached description, or ask for it. Draft the explicit requirements and preferences in chat. Put vague language or unclear priority only under “Questions for the hiring manager”. Ask what observable work the phrase describes before assigning a priority or using a proxy. The supplied description is input to this draft. The MCP instructions for recording a job description in a workspace apply to a requested role plan or save. A search also needs its own request.
-
-When a fresh conversation contains only a role such as “CFO”, ask what the recruiter wants to do.
+- **Use SeekOut to find people for my open role and show me why they match.** Use sourcing. If the role is missing, ask “What role are you hiring for?” in chat. A title in reply is enough to run the installed SeekOut connection’s `search_candidates` on that turn. For a public search without a location, explicitly set `request.index` to `"all"` and leave location filters empty. Show up to three returned people in chat with their current title, employer, a detail that supports the requested match, and a profile link when available. For a title-only request, the current title is the evidence.
+- **Use SeekOut to compare the talent pool for my role in two locations.** Use reporting. Ask only for the missing role or locations. Measure the same role and criteria in each place. Show each place’s returned count in chat, with its geographic scope. If a place is unmeasured, say which one.
+- **Use SeekOut to turn my job description into search criteria I can review.** Use intake. Read the pasted or attached description, or ask for it. Draft the explicit requirements and preferences in chat. Put vague language or unclear priority only under “Questions for the hiring manager”. Ask what observable work the phrase describes before assigning a priority or using a proxy. The supplied description is input to this draft. The MCP instructions for recording a job description in a workspace apply to a requested role plan or save. A search also needs its own request.
 
 Give the recruiter the requested brief, document or role plan. A JD accompanied
 by “find people” goes straight to **sourcing**. When a request names a role but

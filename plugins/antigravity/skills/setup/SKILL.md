@@ -1,17 +1,17 @@
 ---
 name: setup
-description: Set up SeekOut with useful context sources and optional connections, ending at the three starters; explain capabilities or change a standing workflow preference. Opening SeekOut alone does not start onboarding.
+description: Connect SeekOut for recruiting, choose context sources, learn what the plugin can do, or change a SeekOut workflow preference. Don't use for an employee onboarding plan, configuring unrelated apps, or opening SeekOut without a setup request.
 ---
 
 # Set up SeekOut
 
+Use these instructions for SeekOut recruiting tasks. For unrelated requests, use the client's usual workflow and leave SeekOut tools idle. If a fresh conversation contains only a role such as “CFO”, ask what the user wants to do.
+
 Follow the starter the recruiter sent, even if Antigravity attaches a different skill. Use the information already in this conversation. A reply to a starter supplies the missing input for that same task.
 
-- **Find people for my open role and show me why they match.** Use sourcing. If the role is missing, ask “What role are you hiring for?” in chat. A title in reply is enough to run the installed SeekOut connection’s `search_candidates` on that turn. For a public search without a location, explicitly set `request.index` to `"all"` and leave location filters empty. Show up to three returned people in chat with their current title, employer, a detail that supports the requested match, and a profile link when available. For a title-only request, the current title is the evidence.
-- **Compare the talent pool for my role in two locations.** Use reporting. Ask only for the missing role or locations. Measure the same role and criteria in each place. Show each place’s returned count in chat, with its geographic scope. If a place is unmeasured, say which one.
-- **Turn my job description into search criteria I can review.** Use intake. Read the pasted or attached description, or ask for it. Draft the explicit requirements and preferences in chat. Put vague language or unclear priority only under “Questions for the hiring manager”. Ask what observable work the phrase describes before assigning a priority or using a proxy. The supplied description is input to this draft. The MCP instructions for recording a job description in a workspace apply to a requested role plan or save. A search also needs its own request.
-
-When a fresh conversation contains only a role such as “CFO”, ask what the recruiter wants to do.
+- **Use SeekOut to find people for my open role and show me why they match.** Use sourcing. If the role is missing, ask “What role are you hiring for?” in chat. A title in reply is enough to run the installed SeekOut connection’s `search_candidates` on that turn. For a public search without a location, explicitly set `request.index` to `"all"` and leave location filters empty. Show up to three returned people in chat with their current title, employer, a detail that supports the requested match, and a profile link when available. For a title-only request, the current title is the evidence.
+- **Use SeekOut to compare the talent pool for my role in two locations.** Use reporting. Ask only for the missing role or locations. Measure the same role and criteria in each place. Show each place’s returned count in chat, with its geographic scope. If a place is unmeasured, say which one.
+- **Use SeekOut to turn my job description into search criteria I can review.** Use intake. Read the pasted or attached description, or ask for it. Draft the explicit requirements and preferences in chat. Put vague language or unclear priority only under “Questions for the hiring manager”. Ask what observable work the phrase describes before assigning a priority or using a proxy. The supplied description is input to this draft. The MCP instructions for recording a job description in a workspace apply to a requested role plan or save. A search also needs its own request.
 
 Setup prepares the recruiter to choose their first task. It ends at the three
 starters and waits; role intake, searches and measurements belong to the selected
